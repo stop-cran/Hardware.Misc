@@ -1,278 +1,8 @@
 <ElectronicDesign Guid="62c07f21-eb29-4109-934e-1732b748e11b" Id="1">
   <Prop Val="BikeCharger" Nm="%%DESIGNNAME" />
   <Prop Val="D:\Source\Hardware.Misc\BikeCharger\BikeCharger.cad" Nm="%%DESIGNFILENAME" />
-  <Prop Val="03:19:04.2508734" Nm="%%DESIGNTIME" />
+  <Prop Val="03:37:10.3307150" Nm="%%DESIGNTIME" />
   <UsedPartTypes>
-    <PartType Id="2" Name="RESISTOR_1/4W">
-      <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-      <Prop Val="N/A" Nm="DATASHEETS" />
-      <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-      <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-      <Prop Val="RESISTOR_1/4W" Nm="%%SCHPARTNUM" />
-      <Footprint Name="RESISTOR_1/4W" LibGuid="dac1796e-e81a-4c9d-bb03-492133b9023a">
-        <Metrics NamedPadCount="2" PadRows="1" PadCols="2" XPitch="4000000" YPitch="0" IsSmd="False" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <BitBucket>
-          <Pad Id="12" X="-2000000bu" Y="0bu" Name="1" Width="550000bu" Height="550000bu" Drill="330000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-          <Pad Id="13" X="2000000bu" Y="0bu" Name="2" Width="550000bu" Height="550000bu" Drill="330000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-          <Poly Id="14" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
-            <Crn X="-1500000bu" Y="500000bu" />
-            <Crn X="-1500000bu" Y="-500000bu" />
-            <Crn X="1500000bu" Y="-500000bu" />
-            <Crn X="1500000bu" Y="500000bu" />
-            <Crn X="-1500000bu" Y="500000bu" />
-            <Crn X="-1500000bu" Y="500000bu" />
-          </Poly>
-          <Poly Id="15" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
-            <Crn X="-1650000bu" Y="0bu" />
-            <Crn X="-1500000bu" Y="0bu" />
-          </Poly>
-          <Poly Id="16" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
-            <Crn X="1650000bu" Y="0bu" />
-            <Crn X="1500000bu" Y="0bu" />
-          </Poly>
-        </BitBucket>
-      </Footprint>
-      <Symbol Id="3" SetName="RESISTOR_1/4W" LibGuid="bb5622dc-4c9f-4783-8c34-925d29889441">
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <Section Id="4" SymbolName="" SectionName="" X="0bu" Y="0bu" Rot="0" Req="False" SwapId="0">
-          <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
-          <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
-          <Prop Val="PN???" Nm="%%SCHPARTNUM" />
-          <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
-          <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
-          <Prop Val="R???" Nm="%%SCHREFDES" />
-          <BitBucket>
-            <Pin Id="5" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-            </Pin>
-            <Pin Id="6" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-            </Pin>
-            <SchText Id="7" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterLeft" Invisible="False" X="-4000000bu" Y="3000000bu">
-              <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
-            </SchText>
-            <SchText Id="8" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="-3000000bu">
-              <Prop Val="RESISTOR_1/4W" Nm="%%SCHPARTNUM" />
-            </SchText>
-            <Poly Id="9">
-              <Crn X="-1000000bu" Y="0bu" />
-              <Crn X="-750000bu" Y="750000bu" />
-              <Crn X="-250000bu" Y="-750000bu" />
-              <Crn X="250000bu" Y="750000bu" />
-              <Crn X="750000bu" Y="-750000bu" />
-              <Crn X="1250000bu" Y="750000bu" />
-              <Crn X="1750000bu" Y="-750000bu" />
-              <Crn X="2000000bu" Y="0bu" />
-            </Poly>
-            <SchText Id="10" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="4000000bu" Y="3000000bu" />
-          </BitBucket>
-        </Section>
-      </Symbol>
-      <PartType Name="RESISTOR_1/4W">
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="RESISTOR_1/4W" Nm="%%SCHPARTNUM" />
-        <DefaultFootprint Name="RESISTOR_1/4W" Guid="dac1796e-e81a-4c9d-bb03-492133b9023a" />
-        <DefaultSymbol Name="RESISTOR_1/4W" Guid="bb5622dc-4c9f-4783-8c34-925d29889441" />
-      </PartType>
-      <DistributorParts />
-    </PartType>
-    <PartType Id="17" Name="BJT_PNP_TO-126">
-      <Prop Val="N/A" Nm="DATASHEETS" />
-      <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-      <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
-      <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
-      <Footprint Name="BJT_NPN_TO-220" LibGuid="2a0b595f-012d-4abd-bb00-baf8b3ee756c">
-        <Metrics NamedPadCount="3" PadRows="1" PadCols="3" XPitch="1000000" YPitch="0" IsSmd="False" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
-        <Prop Val="In" Nm="%%PCBCURRENTUNITS" />
-        <BitBucket>
-          <Pad Id="30" X="-1000000bu" Y="0bu" Name="1" Width="740000bu" Height="740000bu" Drill="540000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
-          <Pad Id="31" X="0bu" Y="0bu" Name="2" Width="740000bu" Height="740000bu" Drill="540000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-          <Pad Id="32" X="1000000bu" Y="0bu" Name="3" Width="740000bu" Height="740000bu" Drill="540000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-          <Poly Id="33" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
-            <Crn X="-2075000bu" Y="-725000bu" />
-            <Crn X="2075000bu" Y="-725000bu" />
-          </Poly>
-          <Poly Id="34" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
-            <Crn X="2075000bu" Y="-725000bu" />
-            <Crn X="2075000bu" Y="1125000bu" />
-          </Poly>
-          <Poly Id="35" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
-            <Crn X="2075000bu" Y="1125000bu" />
-            <Crn X="-2075000bu" Y="1125000bu" />
-          </Poly>
-          <Poly Id="36" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
-            <Crn X="-2075000bu" Y="1125000bu" />
-            <Crn X="-2075000bu" Y="-725000bu" />
-          </Poly>
-          <Poly Id="37" Name="" Type="Outline" Layer="FpSilk" LineWidth="80000bu">
-            <Crn X="-2050000bu" Y="720000bu" />
-            <Crn X="2050000bu" Y="720000bu" />
-          </Poly>
-        </BitBucket>
-      </Footprint>
-      <Symbol Id="18" SetName="BJT_NPN_TO-220" LibGuid="912624c4-f0a0-476e-a32a-43eb66b30315">
-        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="62500bu,62500bu" Nm="%%PCBGRIDSIZE" />
-        <Section Id="19" SymbolName="LM2940CT-12" SectionName="" X="0bu" Y="0bu" Rot="0" Req="False" SwapId="0">
-          <Prop Val="LM2940CT-12/NOPB" Nm="%%SCHPARTNUM" />
-          <Prop Val="LM2940CT-12/NOPB-ND" Nm="%%SCHDIGIKEYNUM" />
-          <Prop Val="IC REG LDO 12V 1A TO220-3" Nm="%%SCHPARTDESC" />
-          <Prop Val="NATIONAL SEMICONDUCTOR" Nm="VENDOR" />
-          <Prop Val="LEAD FREE" Nm="LEAD" />
-          <Prop Val="ROHS COMPLIANT" Nm="ROHS" />
-          <Prop Val="ACTIVE" Nm="SALES" />
-          <Prop Val="TO-220-3" Nm="SUPPLIER DEVICE PACKAGE" />
-          <Prop Val="THROUGH HOLE" Nm="MOUNTING TYPE" />
-          <Prop Val="0.5V @ 1A" Nm="VOLTAGE - DROPOUT (TYPICAL)" />
-          <Prop Val="-" Nm="CURRENT - LIMIT (MIN)" />
-          <Prop Val="1" Nm="NUMBER OF REGULATORS" />
-          <Prop Val="13.6 V ~ 26 V" Nm="VOLTAGE - INPUT" />
-          <Prop Val="0Â°C ~ 125Â°C" Nm="OPERATING TEMPERATURE" />
-          <Prop Val="12V" Nm="VOLTAGE - OUTPUT" />
-          <Prop Val="1A" Nm="CURRENT - OUTPUT" />
-          <Prop Val="POSITIVE FIXED" Nm="REGULATOR TOPOLOGY" />
-          <Prop Val="TUBE" Nm="PACKAGING" />
-          <Prop Val="TO-220-3" Nm="PACKAGE / CASE" />
-          <Prop Val="HTTP://MEDIA.DIGIKEY.COM/RENDERS/RENESAS%20TECH%20RENDERS/TO-220-3,%20TO-220AB.JPG" Nm="PRODUCT_PHOTOS" />
-          <Prop Val="HTTP://WWW.TI.COM/LIT/DS/SYMLINK/LM2940-N.PDF" Nm="DATASHEETS" />
-          <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
-          <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
-          <Prop Val="Q???" Nm="%%SCHREFDES" />
-          <BitBucket>
-            <SchText Id="20" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="-1000000bu" Y="6000000bu" />
-            <Line Id="21" StartX="0bu" StartY="2000000bu" EndX="0bu" EndY="-2000000bu">
-              <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
-              <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
-            </Line>
-            <Line Id="22" StartX="0bu" StartY="1000000bu" EndX="2000000bu" EndY="2000000bu">
-              <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
-              <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
-            </Line>
-            <Line Id="23" StartX="0bu" StartY="-1000000bu" EndX="2000000bu" EndY="-2000000bu">
-              <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
-              <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
-            </Line>
-            <Pin Id="24" X="-2000000bu" Y="0bu" Name="B" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-              <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
-            </Pin>
-            <Pin Id="25" X="2000000bu" Y="4000000bu" Name="C" Num="2" Ori="Top" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-              <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
-            </Pin>
-            <Pin Id="26" X="2000000bu" Y="-4000000bu" Name="E" Num="3" Ori="Bottom" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-              <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
-            </Pin>
-            <SchText Id="27" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="4000000bu" Y="-6000000bu">
-              <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
-            </SchText>
-            <Poly Id="28">
-              <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
-              <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
-              <Crn X="312500bu" Y="-1437500bu" />
-              <Crn X="0bu" Y="-1000000bu" />
-              <Crn X="500000bu" Y="-1000000bu" />
-              <Crn X="312500bu" Y="-1437500bu" />
-            </Poly>
-          </BitBucket>
-        </Section>
-      </Symbol>
-      <PartType Name="BJT_PNP_TO-126">
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
-        <DefaultFootprint Name="BJT_NPN_TO-220" Guid="2a0b595f-012d-4abd-bb00-baf8b3ee756c" />
-        <DefaultSymbol Name="BJT_NPN_TO-220" Guid="912624c4-f0a0-476e-a32a-43eb66b30315" />
-      </PartType>
-      <DistributorParts />
-    </PartType>
-    <PartType Id="56" Name="INDUCTOR_AXIAL">
-      <Prop Val="N/A" Nm="DATASHEETS" />
-      <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-      <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-      <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
-      <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
-      <Prop Val="5198" Nm="CUSTOM_ID" />
-      <Footprint Name="INDUCTOR_RADIAL3" LibGuid="eab92f2a-0d09-45af-92d3-44f6c9878d2a">
-        <Metrics NamedPadCount="2" PadRows="1" PadCols="2" XPitch="4000000" YPitch="0" IsSmd="False" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <BitBucket>
-          <Pad Id="71" X="-2000000bu" Y="0bu" Name="1" Width="550000bu" Height="550000bu" Drill="334646bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-          <Pad Id="72" X="2000000bu" Y="0bu" Name="2" Width="550000bu" Height="550000bu" Drill="334646bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-          <Poly Id="73" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
-            <Crn X="-1100000bu" Y="500000bu" />
-            <Crn X="-1100000bu" Y="-500000bu" />
-            <Crn X="1100000bu" Y="-500000bu" />
-            <Crn X="1100000bu" Y="500000bu" />
-            <Crn X="-1100000bu" Y="500000bu" />
-            <Crn X="-1100000bu" Y="500000bu" />
-          </Poly>
-          <Poly Id="74" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
-            <Crn X="-1500000bu" Y="0bu" />
-            <Crn X="-1100000bu" Y="0bu" />
-          </Poly>
-          <Poly Id="75" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
-            <Crn X="1500000bu" Y="0bu" />
-            <Crn X="1100000bu" Y="0bu" />
-          </Poly>
-        </BitBucket>
-      </Footprint>
-      <Symbol Id="57" SetName="INDUCTOR" LibGuid="745c9b28-3742-45ef-a761-c804438af652">
-        <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
-        <Section Id="58" SymbolName="" SectionName="" X="0bu" Y="0bu" Rot="0" Req="False" SwapId="0">
-          <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
-          <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
-          <Prop Val="PN???" Nm="%%SCHPARTNUM" />
-          <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
-          <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
-          <Prop Val="L???" Nm="%%SCHREFDES" />
-          <BitBucket>
-            <Pin Id="59" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-            </Pin>
-            <Pin Id="60" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-            </Pin>
-            <SchText Id="61" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="-2000000bu" Y="3000000bu">
-              <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
-            </SchText>
-            <Line Id="62" StartX="-1000000bu" StartY="375000bu" EndX="-1000000bu" EndY="0bu" />
-            <Line Id="63" StartX="2000000bu" StartY="375000bu" EndX="2000000bu" EndY="0bu" />
-            <Arc Id="64" StartX="-250000bu" StartY="375000bu" EndX="-1000000bu" EndY="375000bu" CenterX="-625000bu" CenterY="394764bu" />
-            <Arc Id="65" StartX="500000bu" StartY="375000bu" EndX="-250000bu" EndY="375000bu" CenterX="125000bu" CenterY="394764bu" />
-            <Arc Id="66" StartX="1250000bu" StartY="375000bu" EndX="500000bu" EndY="375000bu" CenterX="875000bu" CenterY="394764bu" />
-            <Arc Id="67" StartX="2000000bu" StartY="375000bu" EndX="1250000bu" EndY="375000bu" CenterX="1625000bu" CenterY="394764bu" />
-            <SchText Id="68" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="0bu" Y="-2000000bu">
-              <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
-            </SchText>
-            <SchText Id="69" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="3000000bu" Y="3000000bu" />
-          </BitBucket>
-        </Section>
-      </Symbol>
-      <PartType Name="INDUCTOR_AXIAL">
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
-        <Prop Val="5198" Nm="CUSTOM_ID" />
-        <DefaultFootprint Name="INDUCTOR_RADIAL3" Guid="eab92f2a-0d09-45af-92d3-44f6c9878d2a" />
-        <DefaultSymbol Name="INDUCTOR" Guid="745c9b28-3742-45ef-a761-c804438af652" />
-      </PartType>
-      <DistributorParts />
-    </PartType>
     <PartType Id="76" Name="USBA-1J">
       <Prop Val="J" Nm="%%SCHREFDESPREFIX" />
       <Prop Val="USBA-1J" Nm="%%SCHPARTNUM" />
@@ -507,86 +237,6 @@
         <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
         <DefaultFootprint Name="ADP1111AR" Guid="19d56744-1831-49f0-ab77-05d624c75647" />
         <DefaultSymbol Name="NewSymbol" Guid="eefa5249-5ecf-4bda-a271-9aeb984d503f" />
-      </PartType>
-      <DistributorParts />
-    </PartType>
-    <PartType Id="126" Name="RESISTOR_1W">
-      <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-      <Prop Val="N/A" Nm="DATASHEETS" />
-      <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-      <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-      <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
-      <Prop Val="4594" Nm="CUSTOM_ID" />
-      <Footprint Name="RES_AXIAL_0.5X0.120IN_P0.052IN_D0.031IN" LibGuid="b872ce3a-ca71-4a76-9df7-69d1b6151dd0">
-        <Metrics NamedPadCount="2" PadRows="1" PadCols="2" XPitch="5000000" YPitch="0" IsSmd="False" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <BitBucket>
-          <Pad Id="136" X="-2500000bu" Y="0bu" Name="1" Width="520000bu" Height="520000bu" Drill="310000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-          <Pad Id="137" X="2500000bu" Y="0bu" Name="2" Width="520000bu" Height="520000bu" Drill="310000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-          <Poly Id="138" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
-            <Crn X="-2000000bu" Y="-600000bu" />
-            <Crn X="2000000bu" Y="-600000bu" />
-            <Crn X="2000000bu" Y="600000bu" />
-            <Crn X="-2000000bu" Y="600000bu" />
-            <Crn X="-2000000bu" Y="-600000bu" />
-            <Crn X="-2000000bu" Y="-600000bu" />
-          </Poly>
-          <Poly Id="139" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
-            <Crn X="-2000000bu" Y="0bu" />
-            <Crn X="-2200000bu" Y="0bu" />
-          </Poly>
-          <Poly Id="140" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
-            <Crn X="2200000bu" Y="0bu" />
-            <Crn X="2000000bu" Y="0bu" />
-          </Poly>
-        </BitBucket>
-      </Footprint>
-      <Symbol Id="127" SetName="RESISTOR" LibGuid="87e49492-68fe-4423-b56c-ff05aa0c737b">
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <Section Id="128" SymbolName="" SectionName="" X="0bu" Y="0bu" Rot="0" Req="False" SwapId="0">
-          <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
-          <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
-          <Prop Val="PN???" Nm="%%SCHPARTNUM" />
-          <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
-          <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
-          <BitBucket>
-            <Pin Id="129" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-            </Pin>
-            <Pin Id="130" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-            </Pin>
-            <SchText Id="131" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterLeft" Invisible="False" X="-4000000bu" Y="3000000bu">
-              <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
-            </SchText>
-            <SchText Id="132" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="3000000bu" Y="3000000bu" />
-            <SchText Id="133" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="-3000000bu">
-              <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
-            </SchText>
-            <Poly Id="134">
-              <Crn X="-1000000bu" Y="0bu" />
-              <Crn X="-750000bu" Y="750000bu" />
-              <Crn X="-250000bu" Y="-750000bu" />
-              <Crn X="250000bu" Y="750000bu" />
-              <Crn X="750000bu" Y="-750000bu" />
-              <Crn X="1250000bu" Y="750000bu" />
-              <Crn X="1750000bu" Y="-750000bu" />
-              <Crn X="2000000bu" Y="0bu" />
-            </Poly>
-          </BitBucket>
-        </Section>
-      </Symbol>
-      <PartType Name="RESISTOR_1W">
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
-        <Prop Val="4594" Nm="CUSTOM_ID" />
-        <DefaultFootprint Name="RES_AXIAL_0.5X0.120IN_P0.052IN_D0.031IN" Guid="b872ce3a-ca71-4a76-9df7-69d1b6151dd0" />
-        <DefaultSymbol Name="RESISTOR" Guid="87e49492-68fe-4423-b56c-ff05aa0c737b" />
       </PartType>
       <DistributorParts />
     </PartType>
@@ -920,6 +570,359 @@
       </PartType>
       <DistributorParts />
     </PartType>
+    <PartType Id="1289" Name="RESISTOR 1/4W">
+      <Prop Val="N/A" Nm="DATASHEETS" />
+      <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+      <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+      <Prop Val="RESISTOR 1/4W" Nm="%%SCHPARTNUM" />
+      <Footprint Name="RESISTOR_1/4W" LibGuid="dac1796e-e81a-4c9d-bb03-492133b9023a">
+        <Metrics NamedPadCount="2" PadRows="1" PadCols="2" XPitch="4000000" YPitch="0" IsSmd="False" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        <Prop Val="Mm" Nm="%%PCBCURRENTUNITS" />
+        <BitBucket>
+          <Pad Id="1284" X="-2000000bu" Y="0bu" Name="1" Width="551181bu" Height="551181bu" Drill="275591bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+          <Pad Id="1285" X="2000000bu" Y="0bu" Name="2" Width="551181bu" Height="551181bu" Drill="275591bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+          <Poly Id="1286" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
+            <Crn X="-1500000bu" Y="500000bu" />
+            <Crn X="-1500000bu" Y="-500000bu" />
+            <Crn X="1500000bu" Y="-500000bu" />
+            <Crn X="1500000bu" Y="500000bu" />
+            <Crn X="-1500000bu" Y="500000bu" />
+            <Crn X="-1500000bu" Y="500000bu" />
+          </Poly>
+          <Poly Id="1287" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
+            <Crn X="-1650000bu" Y="0bu" />
+            <Crn X="-1500000bu" Y="0bu" />
+          </Poly>
+          <Poly Id="1288" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
+            <Crn X="1650000bu" Y="0bu" />
+            <Crn X="1500000bu" Y="0bu" />
+          </Poly>
+        </BitBucket>
+      </Footprint>
+      <Symbol Id="1275" SetName="RESISTOR_1/4W" LibGuid="bb5622dc-4c9f-4783-8c34-925d29889441">
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        <Section Id="1276" SymbolName="" SectionName="" X="0bu" Y="0bu" Rot="0" Req="False" SwapId="0">
+          <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
+          <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
+          <Prop Val="PN???" Nm="%%SCHPARTNUM" />
+          <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
+          <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+          <Prop Val="R???" Nm="%%SCHREFDES" />
+          <BitBucket>
+            <Pin Id="1277" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+            </Pin>
+            <Pin Id="1278" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+            </Pin>
+            <SchText Id="1279" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterLeft" Invisible="False" X="-4000000bu" Y="3000000bu">
+              <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+            </SchText>
+            <SchText Id="1280" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="-3000000bu">
+              <Prop Val="RESISTOR 1/4W" Nm="%%SCHPARTNUM" />
+            </SchText>
+            <Poly Id="1281">
+              <Crn X="-1000000bu" Y="0bu" />
+              <Crn X="-750000bu" Y="750000bu" />
+              <Crn X="-250000bu" Y="-750000bu" />
+              <Crn X="250000bu" Y="750000bu" />
+              <Crn X="750000bu" Y="-750000bu" />
+              <Crn X="1250000bu" Y="750000bu" />
+              <Crn X="1750000bu" Y="-750000bu" />
+              <Crn X="2000000bu" Y="0bu" />
+            </Poly>
+            <SchText Id="1282" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="4000000bu" Y="3000000bu" />
+          </BitBucket>
+        </Section>
+      </Symbol>
+      <PartType Name="RESISTOR 1/4W">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="RESISTOR 1/4W" Nm="%%SCHPARTNUM" />
+        <DefaultFootprint Name="RESISTOR_1/4W" Guid="dac1796e-e81a-4c9d-bb03-492133b9023a" />
+        <DefaultSymbol Name="RESISTOR_1/4W" Guid="bb5622dc-4c9f-4783-8c34-925d29889441" />
+      </PartType>
+      <DistributorParts />
+    </PartType>
+    <PartType Id="1470" Name="BJT_PNP_TO-126">
+      <Prop Val="N/A" Nm="DATASHEETS" />
+      <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+      <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+      <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
+      <Footprint Name="BJT_NPN_TO-220" LibGuid="2a0b595f-012d-4abd-bb00-baf8b3ee756c">
+        <Metrics NamedPadCount="3" PadRows="1" PadCols="3" XPitch="1000000" YPitch="0" IsSmd="False" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        <Prop Val="Mm" Nm="%%PCBCURRENTUNITS" />
+        <BitBucket>
+          <Pad Id="1462" X="-1000000bu" Y="0bu" Name="1" Width="708661bu" Height="708661bu" Drill="472441bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="1463" X="0bu" Y="0bu" Name="2" Width="708661bu" Height="708661bu" Drill="472441bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+          <Pad Id="1464" X="1000000bu" Y="0bu" Name="3" Width="708661bu" Height="708661bu" Drill="472441bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+          <Poly Id="1465" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
+            <Crn X="-2075000bu" Y="-725000bu" />
+            <Crn X="2075000bu" Y="-725000bu" />
+          </Poly>
+          <Poly Id="1466" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
+            <Crn X="2075000bu" Y="-725000bu" />
+            <Crn X="2075000bu" Y="1125000bu" />
+          </Poly>
+          <Poly Id="1467" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
+            <Crn X="2075000bu" Y="1125000bu" />
+            <Crn X="-2075000bu" Y="1125000bu" />
+          </Poly>
+          <Poly Id="1468" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
+            <Crn X="-2075000bu" Y="1125000bu" />
+            <Crn X="-2075000bu" Y="-725000bu" />
+          </Poly>
+          <Poly Id="1469" Name="" Type="Outline" Layer="FpSilk" LineWidth="80000bu">
+            <Crn X="-2050000bu" Y="720000bu" />
+            <Crn X="2050000bu" Y="720000bu" />
+          </Poly>
+        </BitBucket>
+      </Footprint>
+      <Symbol Id="1450" SetName="BJT_NPN_TO-220" LibGuid="912624c4-f0a0-476e-a32a-43eb66b30315">
+        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="62500bu,62500bu" Nm="%%PCBGRIDSIZE" />
+        <Section Id="1451" SymbolName="LM2940CT-12" SectionName="" X="0bu" Y="0bu" Rot="0" Req="False" SwapId="0">
+          <Prop Val="LM2940CT-12/NOPB" Nm="%%SCHPARTNUM" />
+          <Prop Val="LM2940CT-12/NOPB-ND" Nm="%%SCHDIGIKEYNUM" />
+          <Prop Val="IC REG LDO 12V 1A TO220-3" Nm="%%SCHPARTDESC" />
+          <Prop Val="NATIONAL SEMICONDUCTOR" Nm="VENDOR" />
+          <Prop Val="LEAD FREE" Nm="LEAD" />
+          <Prop Val="ROHS COMPLIANT" Nm="ROHS" />
+          <Prop Val="ACTIVE" Nm="SALES" />
+          <Prop Val="TO-220-3" Nm="SUPPLIER DEVICE PACKAGE" />
+          <Prop Val="THROUGH HOLE" Nm="MOUNTING TYPE" />
+          <Prop Val="0.5V @ 1A" Nm="VOLTAGE - DROPOUT (TYPICAL)" />
+          <Prop Val="-" Nm="CURRENT - LIMIT (MIN)" />
+          <Prop Val="1" Nm="NUMBER OF REGULATORS" />
+          <Prop Val="13.6 V ~ 26 V" Nm="VOLTAGE - INPUT" />
+          <Prop Val="0Â°C ~ 125Â°C" Nm="OPERATING TEMPERATURE" />
+          <Prop Val="12V" Nm="VOLTAGE - OUTPUT" />
+          <Prop Val="1A" Nm="CURRENT - OUTPUT" />
+          <Prop Val="POSITIVE FIXED" Nm="REGULATOR TOPOLOGY" />
+          <Prop Val="TUBE" Nm="PACKAGING" />
+          <Prop Val="TO-220-3" Nm="PACKAGE / CASE" />
+          <Prop Val="HTTP://MEDIA.DIGIKEY.COM/RENDERS/RENESAS%20TECH%20RENDERS/TO-220-3,%20TO-220AB.JPG" Nm="PRODUCT_PHOTOS" />
+          <Prop Val="HTTP://WWW.TI.COM/LIT/DS/SYMLINK/LM2940-N.PDF" Nm="DATASHEETS" />
+          <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
+          <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+          <Prop Val="Q???" Nm="%%SCHREFDES" />
+          <BitBucket>
+            <SchText Id="1452" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="-1000000bu" Y="6000000bu" />
+            <Line Id="1453" StartX="0bu" StartY="2000000bu" EndX="0bu" EndY="-2000000bu">
+              <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
+              <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
+            </Line>
+            <Line Id="1454" StartX="0bu" StartY="1000000bu" EndX="2000000bu" EndY="2000000bu">
+              <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
+              <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
+            </Line>
+            <Line Id="1455" StartX="0bu" StartY="-1000000bu" EndX="2000000bu" EndY="-2000000bu">
+              <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
+              <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
+            </Line>
+            <Pin Id="1456" X="-2000000bu" Y="0bu" Name="B" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+              <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
+            </Pin>
+            <Pin Id="1457" X="2000000bu" Y="4000000bu" Name="C" Num="2" Ori="Top" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+              <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
+            </Pin>
+            <Pin Id="1458" X="2000000bu" Y="-4000000bu" Name="E" Num="3" Ori="Bottom" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+              <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
+            </Pin>
+            <SchText Id="1459" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="4000000bu" Y="-6000000bu">
+              <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
+            </SchText>
+            <Poly Id="1460">
+              <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
+              <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
+              <Crn X="312500bu" Y="-1437500bu" />
+              <Crn X="0bu" Y="-1000000bu" />
+              <Crn X="500000bu" Y="-1000000bu" />
+              <Crn X="312500bu" Y="-1437500bu" />
+            </Poly>
+          </BitBucket>
+        </Section>
+      </Symbol>
+      <PartType Name="BJT_PNP_TO-126">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
+        <DefaultFootprint Name="BJT_NPN_TO-220" Guid="2a0b595f-012d-4abd-bb00-baf8b3ee756c" />
+        <DefaultSymbol Name="BJT_NPN_TO-220" Guid="912624c4-f0a0-476e-a32a-43eb66b30315" />
+      </PartType>
+      <DistributorParts />
+    </PartType>
+    <PartType Id="1836" Name="INDUCTOR_AXIAL">
+      <Prop Val="N/A" Nm="DATASHEETS" />
+      <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+      <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
+      <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
+      <Prop Val="5198" Nm="CUSTOM_ID" />
+      <Footprint Name="INDUCTOR_RADIAL3" LibGuid="eab92f2a-0d09-45af-92d3-44f6c9878d2a">
+        <Metrics NamedPadCount="2" PadRows="1" PadCols="2" XPitch="4000000" YPitch="0" IsSmd="False" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        <Prop Val="Mm" Nm="%%PCBCURRENTUNITS" />
+        <BitBucket>
+          <Pad Id="1831" X="-2000000bu" Y="0bu" Name="1" Width="551181bu" Height="551181bu" Drill="275591bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+          <Pad Id="1832" X="2000000bu" Y="0bu" Name="2" Width="551181bu" Height="551181bu" Drill="275591bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+          <Poly Id="1833" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
+            <Crn X="-1100000bu" Y="500000bu" />
+            <Crn X="-1100000bu" Y="-500000bu" />
+            <Crn X="1100000bu" Y="-500000bu" />
+            <Crn X="1100000bu" Y="500000bu" />
+            <Crn X="-1100000bu" Y="500000bu" />
+            <Crn X="-1100000bu" Y="500000bu" />
+          </Poly>
+          <Poly Id="1834" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
+            <Crn X="-1500000bu" Y="0bu" />
+            <Crn X="-1100000bu" Y="0bu" />
+          </Poly>
+          <Poly Id="1835" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
+            <Crn X="1500000bu" Y="0bu" />
+            <Crn X="1100000bu" Y="0bu" />
+          </Poly>
+        </BitBucket>
+      </Footprint>
+      <Symbol Id="1817" SetName="INDUCTOR" LibGuid="745c9b28-3742-45ef-a761-c804438af652">
+        <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        <Section Id="1818" SymbolName="" SectionName="" X="0bu" Y="0bu" Rot="0" Req="False" SwapId="0">
+          <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
+          <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
+          <Prop Val="PN???" Nm="%%SCHPARTNUM" />
+          <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
+          <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+          <Prop Val="L???" Nm="%%SCHREFDES" />
+          <BitBucket>
+            <Pin Id="1819" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+            </Pin>
+            <Pin Id="1820" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+            </Pin>
+            <SchText Id="1821" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="-2000000bu" Y="3000000bu">
+              <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
+            </SchText>
+            <Line Id="1822" StartX="-1000000bu" StartY="375000bu" EndX="-1000000bu" EndY="0bu" />
+            <Line Id="1823" StartX="2000000bu" StartY="375000bu" EndX="2000000bu" EndY="0bu" />
+            <Arc Id="1824" StartX="-250000bu" StartY="375000bu" EndX="-1000000bu" EndY="375000bu" CenterX="-625000bu" CenterY="394764bu" />
+            <Arc Id="1825" StartX="500000bu" StartY="375000bu" EndX="-250000bu" EndY="375000bu" CenterX="125000bu" CenterY="394764bu" />
+            <Arc Id="1826" StartX="1250000bu" StartY="375000bu" EndX="500000bu" EndY="375000bu" CenterX="875000bu" CenterY="394764bu" />
+            <Arc Id="1827" StartX="2000000bu" StartY="375000bu" EndX="1250000bu" EndY="375000bu" CenterX="1625000bu" CenterY="394764bu" />
+            <SchText Id="1828" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="0bu" Y="-2000000bu">
+              <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
+            </SchText>
+            <SchText Id="1829" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="3000000bu" Y="3000000bu" />
+          </BitBucket>
+        </Section>
+      </Symbol>
+      <PartType Name="INDUCTOR_AXIAL">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
+        <Prop Val="5198" Nm="CUSTOM_ID" />
+        <DefaultFootprint Name="INDUCTOR_RADIAL3" Guid="eab92f2a-0d09-45af-92d3-44f6c9878d2a" />
+        <DefaultSymbol Name="INDUCTOR" Guid="745c9b28-3742-45ef-a761-c804438af652" />
+      </PartType>
+      <DistributorParts />
+    </PartType>
+    <PartType Id="1980" Name="RESISTOR_1W">
+      <Prop Val="N/A" Nm="DATASHEETS" />
+      <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+      <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+      <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
+      <Prop Val="4594" Nm="CUSTOM_ID" />
+      <Footprint Name="RES_AXIAL_0.5X0.120IN_P0.052IN_D0.031IN" LibGuid="b872ce3a-ca71-4a76-9df7-69d1b6151dd0">
+        <Metrics NamedPadCount="2" PadRows="1" PadCols="2" XPitch="5000000" YPitch="0" IsSmd="False" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        <Prop Val="Mm" Nm="%%PCBCURRENTUNITS" />
+        <BitBucket>
+          <Pad Id="1975" X="-2500000bu" Y="0bu" Name="1" Width="708661bu" Height="708661bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+          <Pad Id="1976" X="2500000bu" Y="0bu" Name="2" Width="708661bu" Height="708661bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+          <Poly Id="1977" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
+            <Crn X="-2000000bu" Y="-600000bu" />
+            <Crn X="2000000bu" Y="-600000bu" />
+            <Crn X="2000000bu" Y="600000bu" />
+            <Crn X="-2000000bu" Y="600000bu" />
+            <Crn X="-2000000bu" Y="-600000bu" />
+            <Crn X="-2000000bu" Y="-600000bu" />
+          </Poly>
+          <Poly Id="1978" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
+            <Crn X="-2000000bu" Y="0bu" />
+            <Crn X="-2200000bu" Y="0bu" />
+          </Poly>
+          <Poly Id="1979" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
+            <Crn X="2200000bu" Y="0bu" />
+            <Crn X="2000000bu" Y="0bu" />
+          </Poly>
+        </BitBucket>
+      </Footprint>
+      <Symbol Id="1966" SetName="RESISTOR" LibGuid="87e49492-68fe-4423-b56c-ff05aa0c737b">
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        <Section Id="1967" SymbolName="" SectionName="" X="0bu" Y="0bu" Rot="0" Req="False" SwapId="0">
+          <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
+          <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
+          <Prop Val="PN???" Nm="%%SCHPARTNUM" />
+          <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
+          <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+          <BitBucket>
+            <Pin Id="1968" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+            </Pin>
+            <Pin Id="1969" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+              <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+              <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+            </Pin>
+            <SchText Id="1970" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterLeft" Invisible="False" X="-4000000bu" Y="3000000bu">
+              <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+            </SchText>
+            <SchText Id="1971" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="3000000bu" Y="3000000bu" />
+            <SchText Id="1972" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="-3000000bu">
+              <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
+            </SchText>
+            <Poly Id="1973">
+              <Crn X="-1000000bu" Y="0bu" />
+              <Crn X="-750000bu" Y="750000bu" />
+              <Crn X="-250000bu" Y="-750000bu" />
+              <Crn X="250000bu" Y="750000bu" />
+              <Crn X="750000bu" Y="-750000bu" />
+              <Crn X="1250000bu" Y="750000bu" />
+              <Crn X="1750000bu" Y="-750000bu" />
+              <Crn X="2000000bu" Y="0bu" />
+            </Poly>
+          </BitBucket>
+        </Section>
+      </Symbol>
+      <PartType Name="RESISTOR_1W">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
+        <Prop Val="4594" Nm="CUSTOM_ID" />
+        <DefaultFootprint Name="RES_AXIAL_0.5X0.120IN_P0.052IN_D0.031IN" Guid="b872ce3a-ca71-4a76-9df7-69d1b6151dd0" />
+        <DefaultSymbol Name="RESISTOR" Guid="87e49492-68fe-4423-b56c-ff05aa0c737b" />
+      </PartType>
+      <DistributorParts />
+    </PartType>
   </UsedPartTypes>
   <Schematic Id="215" ActivePageRef="216">
     <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
@@ -940,51 +943,6 @@
     <Prop Val="Your Company" Nm="%%DESIGNCOMPANY" />
     <Prop Val="A" Nm="%%DESIGNREVISION" />
     <PartList>
-      <Part Id="191" Name="RESISTOR_1/4W" RefDes="R2" PartType="2">
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="RESISTOR_1/4W" Nm="%%SCHPARTNUM" />
-        <Prop Val="R2" Nm="%%SCHREFDES" />
-        <Sections Id="192" SetName="RESISTOR_1/4W" LibGuid="bb5622dc-4c9f-4783-8c34-925d29889441" OwningPart="191">
-          <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        </Sections>
-      </Part>
-      <Part Id="193" Name="RESISTOR_1/4W" RefDes="R3" PartType="2">
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="RESISTOR_1/4W" Nm="%%SCHPARTNUM" />
-        <Prop Val="R3" Nm="%%SCHREFDES" />
-        <Sections Id="194" SetName="RESISTOR_1/4W" LibGuid="bb5622dc-4c9f-4783-8c34-925d29889441" OwningPart="193">
-          <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        </Sections>
-      </Part>
-      <Part Id="195" Name="BJT_PNP_TO-126" RefDes="Q1" PartType="17">
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
-        <Prop Val="Q1" Nm="%%SCHREFDES" />
-        <Sections Id="196" SetName="BJT_NPN_TO-220" LibGuid="912624c4-f0a0-476e-a32a-43eb66b30315" OwningPart="195">
-          <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
-          <Prop Val="62500bu,62500bu" Nm="%%PCBGRIDSIZE" />
-        </Sections>
-      </Part>
-      <Part Id="199" Name="INDUCTOR_AXIAL" RefDes="L1" PartType="56">
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
-        <Prop Val="5198" Nm="CUSTOM_ID" />
-        <Prop Val="L1" Nm="%%SCHREFDES" />
-        <Sections Id="200" SetName="INDUCTOR" LibGuid="745c9b28-3742-45ef-a761-c804438af652" OwningPart="199">
-          <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
-        </Sections>
-      </Part>
       <Part Id="201" Name="USBA-1J" RefDes="J1" PartType="76">
         <Prop Val="J" Nm="%%SCHREFDESPREFIX" />
         <Prop Val="USBA-1J" Nm="%%SCHPARTNUM" />
@@ -1042,18 +1000,6 @@
         <Sections Id="204" SetName="NewSymbol" LibGuid="eefa5249-5ecf-4bda-a271-9aeb984d503f" OwningPart="203">
           <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
           <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
-        </Sections>
-      </Part>
-      <Part Id="205" Name="RESISTOR_1W" RefDes="R1" PartType="126">
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
-        <Prop Val="4594" Nm="CUSTOM_ID" />
-        <Prop Val="R1" Nm="%%SCHREFDES" />
-        <Sections Id="206" SetName="RESISTOR" LibGuid="87e49492-68fe-4423-b56c-ff05aa0c737b" OwningPart="205">
-          <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
         </Sections>
       </Part>
       <Part Id="207" Name="CAP_RADIAL_H 10X20" RefDes="C1" PartType="141">
@@ -1122,6 +1068,63 @@
           <Prop />
         </Sections>
       </Part>
+      <Part Id="1292" Name="RESISTOR 1/4W" RefDes="R2" PartType="1289">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="RESISTOR 1/4W" Nm="%%SCHPARTNUM" />
+        <Prop Val="R2" Nm="%%SCHREFDES" />
+        <Sections Id="1293" SetName="RESISTOR_1/4W" LibGuid="bb5622dc-4c9f-4783-8c34-925d29889441" OwningPart="1292">
+          <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+          <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        </Sections>
+      </Part>
+      <Part Id="1309" Name="RESISTOR 1/4W" RefDes="R3" PartType="1289">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="RESISTOR 1/4W" Nm="%%SCHPARTNUM" />
+        <Prop Val="R3" Nm="%%SCHREFDES" />
+        <Sections Id="1310" SetName="RESISTOR_1/4W" LibGuid="bb5622dc-4c9f-4783-8c34-925d29889441" OwningPart="1309">
+          <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+          <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        </Sections>
+      </Part>
+      <Part Id="1473" Name="BJT_PNP_TO-126" RefDes="Q1" PartType="1470">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
+        <Prop Val="Q1" Nm="%%SCHREFDES" />
+        <Sections Id="1474" SetName="BJT_NPN_TO-220" LibGuid="912624c4-f0a0-476e-a32a-43eb66b30315" OwningPart="1473">
+          <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+          <Prop Val="62500bu,62500bu" Nm="%%PCBGRIDSIZE" />
+        </Sections>
+      </Part>
+      <Part Id="1839" Name="INDUCTOR_AXIAL" RefDes="L1" PartType="1836">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
+        <Prop Val="5198" Nm="CUSTOM_ID" />
+        <Prop Val="L1" Nm="%%SCHREFDES" />
+        <Sections Id="1840" SetName="INDUCTOR" LibGuid="745c9b28-3742-45ef-a761-c804438af652" OwningPart="1839">
+          <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
+          <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        </Sections>
+      </Part>
+      <Part Id="1983" Name="RESISTOR_1W" RefDes="R1" PartType="1980">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
+        <Prop Val="4594" Nm="CUSTOM_ID" />
+        <Prop Val="R1" Nm="%%SCHREFDES" />
+        <Sections Id="1984" SetName="RESISTOR" LibGuid="87e49492-68fe-4423-b56c-ff05aa0c737b" OwningPart="1983">
+          <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+          <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        </Sections>
+      </Part>
     </PartList>
     <SchPage Id="216" Name="Sheet 1">
       <Prop Val="220000000bu,170000000bu" Nm="%%DESIGNDEFAULTPAGESIZE" />
@@ -1131,18 +1134,19 @@
       <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
       <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
       <Prop Val="C" Nm="%%SCHPAGEFORMAT" />
-      <Prop Val="68657104bu,93494734bu" Nm="%%SCHPAGEVIEWCENTER" />
-      <Prop Val="25963187bu" Nm="%%SCHPAGEVIEWRADIUS" />
+      <Prop Val="52578858bu,102969462bu" Nm="%%SCHPAGEVIEWCENTER" />
+      <Prop Val="25963176bu" Nm="%%SCHPAGEVIEWRADIUS" />
+      <Prop />
       <SubNet Id="217" Name="N_1_466" />
       <SubNet Id="218" Name="N_1_1514" />
       <SubNet Id="219" Name="N_1_1614" />
       <SubNet Id="220" Name="N_1_685" />
       <SubNet Id="221" Name="N_1_979" />
-      <SubNet Id="222" Name="N_1_212" />
       <SubNet Id="223" Name="N_1_215" />
       <SubNet Id="224" Name="N_1_2721" />
       <SubNet Id="225" Name="N_1_2724" />
       <SubNet Id="226" Name="N_1_3029" />
+      <SubNet Id="222" Name="N_1_212" />
       <SchTie Id="227" SubNetRef="218" X="56000000bu" Y="106000000bu" />
       <SchTie Id="228" SubNetRef="217" X="40000000bu" Y="106000000bu" />
       <SchTie Id="229" SubNetRef="217" X="45000000bu" Y="106000000bu" />
@@ -1150,193 +1154,8 @@
       <SchTie Id="1025" SubNetRef="223" X="40000000bu" Y="89000000bu" />
       <SchTie Id="1035" SubNetRef="223" X="69000000bu" Y="81000000bu" />
       <SchTie Id="1037" SubNetRef="223" X="47000000bu" Y="89000000bu" />
-      <SchTie Id="1040" SubNetRef="221" X="55000000bu" Y="89000000bu" />
-      <SchTie Id="1049" SubNetRef="221" X="69000000bu" Y="89000000bu" />
-      <Section Id="236" SymbolName="" SectionName="" X="60000000bu" Y="101000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="192">
-        <Prop Val="RESISTOR_1/4W" Nm="%%SCHPARTNUM" />
-        <Prop Val="330Ω" Nm="%%SCHPARTVALUE" />
-        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
-        <Prop Val="R???" Nm="%%SCHREFDES" />
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <BitBucket>
-          <Pin Id="237" SubNetRef="226" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <Pin Id="238" SubNetRef="219" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <SchText Id="239" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterLeft" Invisible="False" X="-3000000bu" Y="1000000bu">
-            <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-          <SchText Id="240" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="-2000000bu">
-            <Prop Val="RESISTOR_1/4W" Nm="%%SCHPARTNUM" />
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-          <Poly Id="241">
-            <Crn X="-1000000bu" Y="0bu" />
-            <Crn X="-750000bu" Y="750000bu" />
-            <Crn X="-250000bu" Y="-750000bu" />
-            <Crn X="250000bu" Y="750000bu" />
-            <Crn X="750000bu" Y="-750000bu" />
-            <Crn X="1250000bu" Y="750000bu" />
-            <Crn X="1750000bu" Y="-750000bu" />
-            <Crn X="2000000bu" Y="0bu" />
-          </Poly>
-          <SchText Id="242" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="4000000bu" Y="1000000bu">
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-        </BitBucket>
-      </Section>
-      <Section Id="243" SymbolName="" SectionName="" X="60000000bu" Y="106000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="194">
-        <Prop Val="RESISTOR_1/4W" Nm="%%SCHPARTNUM" />
-        <Prop Val="220Ω" Nm="%%SCHPARTVALUE" />
-        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
-        <Prop Val="R???" Nm="%%SCHREFDES" />
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <BitBucket>
-          <Pin Id="244" SubNetRef="218" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <Pin Id="245" SubNetRef="222" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <SchText Id="246" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterLeft" Invisible="False" X="-2000000bu" Y="2000000bu">
-            <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-          <SchText Id="247" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="2000000bu" Y="-2000000bu">
-            <Prop Val="RESISTOR_1/4W" Nm="%%SCHPARTNUM" />
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-          <Poly Id="248">
-            <Crn X="-1000000bu" Y="0bu" />
-            <Crn X="-750000bu" Y="750000bu" />
-            <Crn X="-250000bu" Y="-750000bu" />
-            <Crn X="250000bu" Y="750000bu" />
-            <Crn X="750000bu" Y="-750000bu" />
-            <Crn X="1250000bu" Y="750000bu" />
-            <Crn X="1750000bu" Y="-750000bu" />
-            <Crn X="2000000bu" Y="0bu" />
-          </Poly>
-          <SchText Id="249" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="4000000bu" Y="2000000bu">
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-        </BitBucket>
-      </Section>
-      <Section Id="250" SymbolName="LM2940CT-12" SectionName="" X="67000000bu" Y="101000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="196">
-        <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
-        <Prop Val="LM2940CT-12/NOPB-ND" Nm="%%SCHDIGIKEYNUM" />
-        <Prop Val="IC REG LDO 12V 1A TO220-3" Nm="%%SCHPARTDESC" />
-        <Prop Val="NATIONAL SEMICONDUCTOR" Nm="VENDOR" />
-        <Prop Val="LEAD FREE" Nm="LEAD" />
-        <Prop Val="ROHS COMPLIANT" Nm="ROHS" />
-        <Prop Val="ACTIVE" Nm="SALES" />
-        <Prop Val="TO-220-3" Nm="SUPPLIER DEVICE PACKAGE" />
-        <Prop Val="THROUGH HOLE" Nm="MOUNTING TYPE" />
-        <Prop Val="0.5V @ 1A" Nm="VOLTAGE - DROPOUT (TYPICAL)" />
-        <Prop Val="-" Nm="CURRENT - LIMIT (MIN)" />
-        <Prop Val="1" Nm="NUMBER OF REGULATORS" />
-        <Prop Val="13.6 V ~ 26 V" Nm="VOLTAGE - INPUT" />
-        <Prop Val="0Â°C ~ 125Â°C" Nm="OPERATING TEMPERATURE" />
-        <Prop Val="12V" Nm="VOLTAGE - OUTPUT" />
-        <Prop Val="1A" Nm="CURRENT - OUTPUT" />
-        <Prop Val="POSITIVE FIXED" Nm="REGULATOR TOPOLOGY" />
-        <Prop Val="TUBE" Nm="PACKAGING" />
-        <Prop Val="TO-220-3" Nm="PACKAGE / CASE" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
-        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
-        <Prop Val="Q???" Nm="%%SCHREFDES" />
-        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
-        <BitBucket>
-          <SchText Id="251" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="2000000bu" Y="0bu" />
-          <Line Id="252" StartX="0bu" StartY="-2000000bu" EndX="0bu" EndY="2000000bu">
-            <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
-            <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
-          </Line>
-          <Line Id="253" StartX="0bu" StartY="-1000000bu" EndX="2000000bu" EndY="-2000000bu">
-            <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
-            <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
-          </Line>
-          <Line Id="254" StartX="0bu" StartY="1000000bu" EndX="2000000bu" EndY="2000000bu">
-            <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
-            <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
-          </Line>
-          <Pin Id="255" SubNetRef="219" X="-2000000bu" Y="0bu" Name="B" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <Pin Id="256" SubNetRef="220" X="2000000bu" Y="-4000000bu" Name="C" Num="2" Ori="Bottom" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <Pin Id="257" SubNetRef="222" X="2000000bu" Y="4000000bu" Name="E" Num="3" Ori="Top" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <SchText Id="258" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="9000000bu" Y="3000000bu">
-            <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
-          </SchText>
-          <Poly Id="259">
-            <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
-            <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
-            <Crn X="312500bu" Y="1437500bu" />
-            <Crn X="0bu" Y="1000000bu" />
-            <Crn X="500000bu" Y="1000000bu" />
-            <Crn X="312500bu" Y="1437500bu" />
-          </Poly>
-        </BitBucket>
-      </Section>
-      <Section Id="271" SymbolName="" SectionName="" X="69000000bu" Y="93000000bu" Rot="270" Req="False" SwapId="0" OwningSymbolSet="200">
-        <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
-        <Prop Val="6.8µH" Nm="%%SCHPARTVALUE" />
-        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
-        <Prop Val="L???" Nm="%%SCHREFDES" />
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="5198" Nm="CUSTOM_ID" />
-        <BitBucket>
-          <Pin Id="272" SubNetRef="220" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <Pin Id="273" SubNetRef="221" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <SchText Id="274" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="2000000bu" Y="-2000000bu">
-            <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-          <Line Id="275" StartX="-1000000bu" StartY="375000bu" EndX="-1000000bu" EndY="0bu" />
-          <Line Id="276" StartX="2000000bu" StartY="375000bu" EndX="2000000bu" EndY="0bu" />
-          <Arc Id="277" StartX="-250000bu" StartY="375000bu" EndX="-1000000bu" EndY="375000bu" CenterX="-625000bu" CenterY="394764bu" />
-          <Arc Id="278" StartX="500000bu" StartY="375000bu" EndX="-250000bu" EndY="375000bu" CenterX="125000bu" CenterY="394764bu" />
-          <Arc Id="279" StartX="1250000bu" StartY="375000bu" EndX="500000bu" EndY="375000bu" CenterX="875000bu" CenterY="394764bu" />
-          <Arc Id="280" StartX="2000000bu" StartY="375000bu" EndX="1250000bu" EndY="375000bu" CenterX="1625000bu" CenterY="394764bu" />
-          <SchText Id="281" String="$%%SCHPARTNUM" Rot="90" PtHeight="12" Justify="CenterCenter" Invisible="False" X="0bu" Y="8000000bu">
-            <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-          <SchText Id="282" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="-2000000bu" Y="-2000000bu">
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-        </BitBucket>
-      </Section>
+      <SchTie Id="1862" SubNetRef="221" X="55000000bu" Y="89000000bu" />
+      <SchTie Id="1871" SubNetRef="221" X="69000000bu" Y="89000000bu" />
       <Section Id="283" SymbolName="" SectionName="" X="76000000bu" Y="84000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="202">
         <Prop Val="J???" Nm="%%SCHREFDES" />
         <Prop Val="USBA-1J" Nm="%%SCHPARTNUM" />
@@ -1440,47 +1259,6 @@
           <Pin Id="304" X="5000000bu" Y="1000000bu" Name="SET" Num="7" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
           <Pin Id="305" SubNetRef="221" X="5000000bu" Y="2000000bu" Name="SENSE" Num="8" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
           <Rect Id="306" X1="-3000000bu" Y1="-2000000bu" X2="3000000bu" Y2="3000000bu" />
-        </BitBucket>
-      </Section>
-      <Section Id="307" SymbolName="" SectionName="" X="50000000bu" Y="106000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="206">
-        <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
-        <Prop Val="0.33Ω" Nm="%%SCHPARTVALUE" />
-        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
-        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
-        <Prop Val="N/A" Nm="DATASHEETS" />
-        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
-        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
-        <Prop Val="4594" Nm="CUSTOM_ID" />
-        <BitBucket>
-          <Pin Id="308" SubNetRef="217" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <Pin Id="309" SubNetRef="218" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
-            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
-            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
-          </Pin>
-          <SchText Id="310" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterLeft" Invisible="False" X="-4000000bu" Y="3000000bu">
-            <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-          <SchText Id="311" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="3000000bu" Y="3000000bu">
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-          <SchText Id="312" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="-3000000bu">
-            <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
-            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
-          </SchText>
-          <Poly Id="313">
-            <Crn X="-1000000bu" Y="0bu" />
-            <Crn X="-750000bu" Y="750000bu" />
-            <Crn X="-250000bu" Y="-750000bu" />
-            <Crn X="250000bu" Y="750000bu" />
-            <Crn X="750000bu" Y="-750000bu" />
-            <Crn X="1250000bu" Y="750000bu" />
-            <Crn X="1750000bu" Y="-750000bu" />
-            <Crn X="2000000bu" Y="0bu" />
-          </Poly>
         </BitBucket>
       </Section>
       <Section Id="314" SymbolName="" SectionName="" X="40000000bu" Y="97000000bu" Rot="270" Req="False" SwapId="0" OwningSymbolSet="208">
@@ -1671,29 +1449,229 @@
           </SchText>
         </BitBucket>
       </Section>
-      <Wire Id="352" StartRef="257" EndRef="245">
-        <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
-        <Crn X="69000000bu" Y="105000000bu" />
-        <Crn X="69000000bu" Y="106000000bu" />
-        <Crn X="64000000bu" Y="106000000bu" />
-      </Wire>
-      <Wire Id="353" StartRef="255" EndRef="238">
-        <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
-        <Crn X="65000000bu" Y="101000000bu" />
-        <Crn X="64000000bu" Y="101000000bu" />
-      </Wire>
-      <Wire Id="354" StartRef="272" EndRef="256">
-        <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
-        <Crn X="69000000bu" Y="96000000bu" />
-        <Crn X="69000000bu" Y="97000000bu" />
-      </Wire>
-      <Wire Id="357" StartRef="300" EndRef="237">
+      <Section Id="1294" SymbolName="" SectionName="" X="60000000bu" Y="101000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="1293">
+        <Prop Val="RESISTOR 1/4W" Nm="%%SCHPARTNUM" />
+        <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
+        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+        <Prop Val="R???" Nm="%%SCHREFDES" />
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <BitBucket>
+          <Pin Id="1295" SubNetRef="226" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <Pin Id="1296" SubNetRef="219" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <SchText Id="1297" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterLeft" Invisible="False" X="-4000000bu" Y="3000000bu">
+            <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+          </SchText>
+          <SchText Id="1298" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="-3000000bu">
+            <Prop Val="RESISTOR 1/4W" Nm="%%SCHPARTNUM" />
+          </SchText>
+          <Poly Id="1299">
+            <Crn X="-1000000bu" Y="0bu" />
+            <Crn X="-750000bu" Y="750000bu" />
+            <Crn X="-250000bu" Y="-750000bu" />
+            <Crn X="250000bu" Y="750000bu" />
+            <Crn X="750000bu" Y="-750000bu" />
+            <Crn X="1250000bu" Y="750000bu" />
+            <Crn X="1750000bu" Y="-750000bu" />
+            <Crn X="2000000bu" Y="0bu" />
+          </Poly>
+          <SchText Id="1300" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="4000000bu" Y="3000000bu" />
+        </BitBucket>
+      </Section>
+      <Section Id="1311" SymbolName="" SectionName="" X="60000000bu" Y="106000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="1310">
+        <Prop Val="RESISTOR 1/4W" Nm="%%SCHPARTNUM" />
+        <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
+        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+        <Prop Val="R???" Nm="%%SCHREFDES" />
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <BitBucket>
+          <Pin Id="1312" SubNetRef="218" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <Pin Id="1313" SubNetRef="222" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <SchText Id="1314" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterLeft" Invisible="False" X="-4000000bu" Y="3000000bu">
+            <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+          </SchText>
+          <SchText Id="1315" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="-3000000bu">
+            <Prop Val="RESISTOR 1/4W" Nm="%%SCHPARTNUM" />
+          </SchText>
+          <Poly Id="1316">
+            <Crn X="-1000000bu" Y="0bu" />
+            <Crn X="-750000bu" Y="750000bu" />
+            <Crn X="-250000bu" Y="-750000bu" />
+            <Crn X="250000bu" Y="750000bu" />
+            <Crn X="750000bu" Y="-750000bu" />
+            <Crn X="1250000bu" Y="750000bu" />
+            <Crn X="1750000bu" Y="-750000bu" />
+            <Crn X="2000000bu" Y="0bu" />
+          </Poly>
+          <SchText Id="1317" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="4000000bu" Y="3000000bu" />
+        </BitBucket>
+      </Section>
+      <Section Id="1475" SymbolName="LM2940CT-12" SectionName="" X="67000000bu" Y="101000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="1474">
+        <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
+        <Prop Val="LM2940CT-12/NOPB-ND" Nm="%%SCHDIGIKEYNUM" />
+        <Prop Val="IC REG LDO 12V 1A TO220-3" Nm="%%SCHPARTDESC" />
+        <Prop Val="NATIONAL SEMICONDUCTOR" Nm="VENDOR" />
+        <Prop Val="LEAD FREE" Nm="LEAD" />
+        <Prop Val="ROHS COMPLIANT" Nm="ROHS" />
+        <Prop Val="ACTIVE" Nm="SALES" />
+        <Prop Val="TO-220-3" Nm="SUPPLIER DEVICE PACKAGE" />
+        <Prop Val="THROUGH HOLE" Nm="MOUNTING TYPE" />
+        <Prop Val="0.5V @ 1A" Nm="VOLTAGE - DROPOUT (TYPICAL)" />
+        <Prop Val="-" Nm="CURRENT - LIMIT (MIN)" />
+        <Prop Val="1" Nm="NUMBER OF REGULATORS" />
+        <Prop Val="13.6 V ~ 26 V" Nm="VOLTAGE - INPUT" />
+        <Prop Val="0Â°C ~ 125Â°C" Nm="OPERATING TEMPERATURE" />
+        <Prop Val="12V" Nm="VOLTAGE - OUTPUT" />
+        <Prop Val="1A" Nm="CURRENT - OUTPUT" />
+        <Prop Val="POSITIVE FIXED" Nm="REGULATOR TOPOLOGY" />
+        <Prop Val="TUBE" Nm="PACKAGING" />
+        <Prop Val="TO-220-3" Nm="PACKAGE / CASE" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
+        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+        <Prop Val="Q???" Nm="%%SCHREFDES" />
+        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+        <Prop />
+        <Prop />
+        <BitBucket>
+          <SchText Id="1476" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="4000000bu" Y="-1000000bu" />
+          <Line Id="1477" StartX="0bu" StartY="-2000000bu" EndX="0bu" EndY="2000000bu">
+            <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
+            <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
+          </Line>
+          <Line Id="1478" StartX="0bu" StartY="-1000000bu" EndX="2000000bu" EndY="-2000000bu">
+            <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
+            <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
+          </Line>
+          <Line Id="1479" StartX="0bu" StartY="1000000bu" EndX="2000000bu" EndY="2000000bu">
+            <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
+            <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
+          </Line>
+          <Pin Id="1480" SubNetRef="219" X="-2000000bu" Y="0bu" Name="B" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <Pin Id="1481" SubNetRef="220" X="2000000bu" Y="-4000000bu" Name="C" Num="2" Ori="Bottom" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <Pin Id="1482" SubNetRef="222" X="2000000bu" Y="4000000bu" Name="E" Num="3" Ori="Top" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="4279900698" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <SchText Id="1483" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="9000000bu" Y="2000000bu">
+            <Prop Val="BJT_PNP_TO-126" Nm="%%SCHPARTNUM" />
+          </SchText>
+          <Poly Id="1484">
+            <Prop Val="4278190335" Nm="%%SCHFILLCOLOR" />
+            <Prop Val="Solid" Nm="%%SCHLINESTYLE" />
+            <Crn X="312500bu" Y="1437500bu" />
+            <Crn X="0bu" Y="1000000bu" />
+            <Crn X="500000bu" Y="1000000bu" />
+            <Crn X="312500bu" Y="1437500bu" />
+          </Poly>
+        </BitBucket>
+      </Section>
+      <Section Id="1841" SymbolName="" SectionName="" X="69000000bu" Y="93000000bu" Rot="270" Req="False" SwapId="0" OwningSymbolSet="1840">
+        <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
+        <Prop Val="6.8uH" Nm="%%SCHPARTVALUE" />
+        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+        <Prop Val="L???" Nm="%%SCHREFDES" />
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="5198" Nm="CUSTOM_ID" />
+        <BitBucket>
+          <Pin Id="1842" SubNetRef="220" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <Pin Id="1843" SubNetRef="221" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <SchText Id="1844" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="-3000000bu" Y="2000000bu">
+            <Prop Val="L" Nm="%%SCHREFDESPREFIX" />
+            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
+          </SchText>
+          <Line Id="1845" StartX="-1000000bu" StartY="375000bu" EndX="-1000000bu" EndY="0bu" />
+          <Line Id="1846" StartX="2000000bu" StartY="375000bu" EndX="2000000bu" EndY="0bu" />
+          <Arc Id="1847" StartX="-250000bu" StartY="375000bu" EndX="-1000000bu" EndY="375000bu" CenterX="-625000bu" CenterY="394764bu" />
+          <Arc Id="1848" StartX="500000bu" StartY="375000bu" EndX="-250000bu" EndY="375000bu" CenterX="125000bu" CenterY="394764bu" />
+          <Arc Id="1849" StartX="1250000bu" StartY="375000bu" EndX="500000bu" EndY="375000bu" CenterX="875000bu" CenterY="394764bu" />
+          <Arc Id="1850" StartX="2000000bu" StartY="375000bu" EndX="1250000bu" EndY="375000bu" CenterX="1625000bu" CenterY="394764bu" />
+          <SchText Id="1851" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="0bu" Y="-2000000bu">
+            <Prop Val="INDUCTOR_AXIAL" Nm="%%SCHPARTNUM" />
+            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
+          </SchText>
+          <SchText Id="1852" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="2000000bu">
+            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
+          </SchText>
+        </BitBucket>
+      </Section>
+      <Section Id="1985" SymbolName="" SectionName="" X="50000000bu" Y="106000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="1984">
+        <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
+        <Prop Val="0.33Ω" Nm="%%SCHPARTVALUE" />
+        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="4594" Nm="CUSTOM_ID" />
+        <BitBucket>
+          <Pin Id="1986" SubNetRef="217" X="-3000000bu" Y="0bu" Name="A0" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <Pin Id="1987" SubNetRef="218" X="4000000bu" Y="0bu" Name="A1" Num="2" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu">
+            <Prop Val="0" Nm="%%SCHPINNAMECOLOR" />
+            <Prop Val="0" Nm="%%SCHPINNUMCOLOR" />
+          </Pin>
+          <SchText Id="1988" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterLeft" Invisible="False" X="-4000000bu" Y="3000000bu">
+            <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
+          </SchText>
+          <SchText Id="1989" String="$%%SCHPARTVALUE" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="3000000bu" Y="3000000bu">
+            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
+          </SchText>
+          <SchText Id="1990" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="-3000000bu">
+            <Prop Val="RESISTOR_1W" Nm="%%SCHPARTNUM" />
+            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
+          </SchText>
+          <Poly Id="1991">
+            <Crn X="-1000000bu" Y="0bu" />
+            <Crn X="-750000bu" Y="750000bu" />
+            <Crn X="-250000bu" Y="-750000bu" />
+            <Crn X="250000bu" Y="750000bu" />
+            <Crn X="750000bu" Y="-750000bu" />
+            <Crn X="1250000bu" Y="750000bu" />
+            <Crn X="1750000bu" Y="-750000bu" />
+            <Crn X="2000000bu" Y="0bu" />
+          </Poly>
+        </BitBucket>
+      </Section>
+      <Wire Id="357" StartRef="300" EndRef="1295">
         <Crn X="50000000bu" Y="102000000bu" />
         <Crn X="50000000bu" Y="103000000bu" />
         <Crn X="57000000bu" Y="103000000bu" />
         <Crn X="57000000bu" Y="101000000bu" />
       </Wire>
-      <Wire Id="358" StartRef="227" EndRef="244">
+      <Wire Id="358" StartRef="227" EndRef="1312">
         <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
         <Crn X="56000000bu" Y="106000000bu" />
         <Crn X="57000000bu" Y="106000000bu" />
@@ -1704,7 +1682,7 @@
         <Crn X="56000000bu" Y="102000000bu" />
         <Crn X="56000000bu" Y="106000000bu" />
       </Wire>
-      <Wire Id="360" StartRef="309" EndRef="227">
+      <Wire Id="360" StartRef="1987" EndRef="227">
         <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
         <Crn X="54000000bu" Y="106000000bu" />
         <Crn X="56000000bu" Y="106000000bu" />
@@ -1732,7 +1710,7 @@
         <Crn X="45000000bu" Y="104000000bu" />
         <Crn X="45000000bu" Y="106000000bu" />
       </Wire>
-      <Wire Id="365" StartRef="229" EndRef="308">
+      <Wire Id="365" StartRef="229" EndRef="1986">
         <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
         <Crn X="45000000bu" Y="106000000bu" />
         <Crn X="47000000bu" Y="106000000bu" />
@@ -1798,36 +1776,52 @@
         <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
         <Crn X="47000000bu" Y="89000000bu" />
       </Wire>
-      <Wire Id="1039" StartRef="1049" EndRef="1040">
+      <Wire Id="1523" StartRef="1482" EndRef="1313">
         <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
-        <Crn X="69000000bu" Y="89000000bu" />
-        <Crn X="55000000bu" Y="89000000bu" />
+        <Crn X="69000000bu" Y="105000000bu" />
+        <Crn X="69000000bu" Y="106000000bu" />
+        <Crn X="64000000bu" Y="106000000bu" />
       </Wire>
-      <Wire Id="1041" StartRef="1040" EndRef="305">
+      <Wire Id="1526" StartRef="1480" EndRef="1296">
         <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
-        <Crn X="55000000bu" Y="89000000bu" />
-        <Crn X="55000000bu" Y="92000000bu" />
-        <Crn X="52000000bu" Y="92000000bu" />
+        <Crn X="65000000bu" Y="101000000bu" />
+        <Crn X="64000000bu" Y="101000000bu" />
       </Wire>
-      <Wire Id="1044" StartRef="997" EndRef="1040">
-        <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
-        <Crn X="54000000bu" Y="89000000bu" />
-        <Crn X="55000000bu" Y="89000000bu" />
-      </Wire>
-      <Wire Id="1045" StartRef="1049" EndRef="327">
-        <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
-        <Crn X="69000000bu" Y="89000000bu" />
-        <Crn X="69000000bu" Y="88000000bu" />
-      </Wire>
-      <Wire Id="1046" StartRef="1049" EndRef="284">
+      <Wire Id="1859" StartRef="1871" EndRef="284">
         <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
         <Crn X="69000000bu" Y="89000000bu" />
         <Crn X="74000000bu" Y="89000000bu" />
         <Crn X="74000000bu" Y="84000000bu" />
       </Wire>
-      <Wire Id="1050" StartRef="273" EndRef="1049">
+      <Wire Id="1861" StartRef="1862" EndRef="305">
+        <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
+        <Crn X="55000000bu" Y="89000000bu" />
+        <Crn X="55000000bu" Y="92000000bu" />
+        <Crn X="52000000bu" Y="92000000bu" />
+      </Wire>
+      <Wire Id="1865" StartRef="1871" EndRef="327">
         <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
         <Crn X="69000000bu" Y="89000000bu" />
+        <Crn X="69000000bu" Y="88000000bu" />
+      </Wire>
+      <Wire Id="1866" StartRef="997" EndRef="1862">
+        <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
+        <Crn X="54000000bu" Y="89000000bu" />
+        <Crn X="55000000bu" Y="89000000bu" />
+      </Wire>
+      <Wire Id="1867" StartRef="1871" EndRef="1862">
+        <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
+        <Crn X="69000000bu" Y="89000000bu" />
+        <Crn X="55000000bu" Y="89000000bu" />
+      </Wire>
+      <Wire Id="1872" StartRef="1843" EndRef="1871">
+        <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
+        <Crn X="69000000bu" Y="89000000bu" />
+      </Wire>
+      <Wire Id="1873" StartRef="1842" EndRef="1481">
+        <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
+        <Crn X="69000000bu" Y="96000000bu" />
+        <Crn X="69000000bu" Y="97000000bu" />
       </Wire>
     </SchPage>
   </Schematic>
@@ -1839,13 +1833,13 @@
     <Prop Val="65312" Nm="%%PCBHICONTRASTCOLOR" />
     <Prop Val="4279505940" Nm="%%PCBDIMCOLOR" />
     <Prop Val="AllPickable" Nm="%%PCBPICKFLAGS" />
-    <Prop Val="15017428bu,2893752bu" Nm="%%PCBVIEWCENTER" />
-    <Prop Val="8473487bu" Nm="%%PCBVIEWRADIUS" />
+    <Prop Val="3760968bu,7523724bu" Nm="%%PCBVIEWCENTER" />
+    <Prop Val="8473438bu" Nm="%%PCBVIEWRADIUS" />
     <Prop Val="4278255360" Nm="%%PCBGRIDCOLOR" />
     <Prop Val="3372220415" Nm="%%PCBPINNAMECOLOR" />
     <Prop Val="3372220415" Nm="%%PCBNETNAMECOLOR" />
     <Prop Val="4294967040" Nm="%%PCBRATCOLOR" />
-    <Prop Val="True" Nm="%%PCBCOPPERPOUR" />
+    <Prop Val="False" Nm="%%PCBCOPPERPOUR" />
     <Prop Val="FR4" Nm="%%PCBBOARDMATERIAL" />
     <Prop Val="0.062" Nm="%%PCBBOARDTHICKNESS" />
     <Prop Val="OneOunce" Nm="%%PCBCOPPERWEIGHT" />
@@ -2080,7 +2074,7 @@
     <Prop Val="Top Silk" Nm="%%PCBLAYERNAME" Idx="31" />
     <Prop Val="16777215" Nm="%%PCBLAYERCOLOR" Idx="31" />
     <Prop Val="Bottom Silk" Nm="%%PCBLAYERNAME" Idx="32" />
-    <Prop Val="3363798911" Nm="%%PCBLAYERCOLOR" Idx="32" />
+    <Prop Val="8355711" Nm="%%PCBLAYERCOLOR" Idx="32" />
     <Prop Val="Top Assy" Nm="%%PCBLAYERNAME" Idx="33" />
     <Prop Val="4294967040" Nm="%%PCBLAYERCOLOR" Idx="33" />
     <Prop Val="Bottom Assy" Nm="%%PCBLAYERNAME" Idx="34" />
@@ -2130,103 +2124,6 @@
       <Crn X="23622120bu" Y="-393702bu" />
       <Crn X="0bu" Y="-393702bu" />
     </Poly>
-    <Comp Id="468" RefDes="R2" X="16141782bu" Y="5905530bu" Rot="90" Bot="False">
-      <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
-      <Prop Val="191" Nm="%%SCHUID" />
-      <Pad Id="469" X="-2000000bu" Y="0bu" Name="1" Width="550000bu" Height="550000bu" Drill="330000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-      <Pad Id="470" X="2000000bu" Y="0bu" Name="2" Width="550000bu" Height="550000bu" Drill="330000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-      <Poly Id="471" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
-        <Crn X="-1500000bu" Y="500000bu" />
-        <Crn X="-1500000bu" Y="-500000bu" />
-        <Crn X="1500000bu" Y="-500000bu" />
-        <Crn X="1500000bu" Y="500000bu" />
-        <Crn X="-1500000bu" Y="500000bu" />
-        <Crn X="-1500000bu" Y="500000bu" />
-      </Poly>
-      <Poly Id="472" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
-        <Crn X="-1650000bu" Y="0bu" />
-        <Crn X="-1500000bu" Y="0bu" />
-      </Poly>
-      <Poly Id="473" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
-        <Crn X="1650000bu" Y="0bu" />
-        <Crn X="1500000bu" Y="0bu" />
-      </Poly>
-      <Text Id="474" String="$%%REFDES" Rot="180" TextHeight="750000bu" LineWidth="80000bu" Mirrored="False" Layer="SsTop" X="656106bu" Y="256298bu" />
-    </Comp>
-    <Comp Id="475" RefDes="R3" X="14960676bu" Y="5905530bu" Rot="0" Bot="True">
-      <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
-      <Prop Val="193" Nm="%%SCHUID" />
-      <Pad Id="476" X="-2000000bu" Y="0bu" Name="1" Width="550000bu" Height="550000bu" Drill="330000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-      <Pad Id="477" X="2000000bu" Y="0bu" Name="2" Width="550000bu" Height="550000bu" Drill="330000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-      <Poly Id="478" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
-        <Crn X="-1500000bu" Y="500000bu" />
-        <Crn X="-1500000bu" Y="-500000bu" />
-        <Crn X="1500000bu" Y="-500000bu" />
-        <Crn X="1500000bu" Y="500000bu" />
-        <Crn X="-1500000bu" Y="500000bu" />
-        <Crn X="-1500000bu" Y="500000bu" />
-      </Poly>
-      <Poly Id="479" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
-        <Crn X="-1650000bu" Y="0bu" />
-        <Crn X="-1500000bu" Y="0bu" />
-      </Poly>
-      <Poly Id="480" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
-        <Crn X="1650000bu" Y="0bu" />
-        <Crn X="1500000bu" Y="0bu" />
-      </Poly>
-      <Text Id="481" String="$%%REFDES" Rot="0" TextHeight="750000bu" LineWidth="80000bu" Mirrored="True" Layer="SsBot" X="-918702bu" Y="-531106bu" />
-    </Comp>
-    <Comp Id="482" RefDes="Q1" X="14566974bu" Y="7086636bu" Rot="0" Bot="True">
-      <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
-      <Prop Val="195" Nm="%%SCHUID" />
-      <Pad Id="483" X="-1000000bu" Y="0bu" Name="1" Width="740000bu" Height="740000bu" Drill="540000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
-      <Pad Id="484" X="0bu" Y="0bu" Name="2" Width="740000bu" Height="740000bu" Drill="540000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-      <Pad Id="485" X="1000000bu" Y="0bu" Name="3" Width="740000bu" Height="740000bu" Drill="540000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-      <Poly Id="486" Name="" Type="Outline" Layer="SsBot" LineWidth="60000bu">
-        <Crn X="-2075000bu" Y="-725000bu" />
-        <Crn X="2075000bu" Y="-725000bu" />
-      </Poly>
-      <Poly Id="487" Name="" Type="Outline" Layer="SsBot" LineWidth="60000bu">
-        <Crn X="2075000bu" Y="-725000bu" />
-        <Crn X="2075000bu" Y="1125000bu" />
-      </Poly>
-      <Poly Id="488" Name="" Type="Outline" Layer="SsBot" LineWidth="60000bu">
-        <Crn X="2075000bu" Y="1125000bu" />
-        <Crn X="-2075000bu" Y="1125000bu" />
-      </Poly>
-      <Poly Id="489" Name="" Type="Outline" Layer="SsBot" LineWidth="60000bu">
-        <Crn X="-2075000bu" Y="1125000bu" />
-        <Crn X="-2075000bu" Y="-725000bu" />
-      </Poly>
-      <Poly Id="490" Name="" Type="Outline" Layer="SsBot" LineWidth="80000bu">
-        <Crn X="-2050000bu" Y="720000bu" />
-        <Crn X="2050000bu" Y="720000bu" />
-      </Poly>
-      <Text Id="491" String="$%%REFDES" Rot="0" TextHeight="750000bu" LineWidth="80000bu" Mirrored="True" Layer="SsBot" X="2268418bu" Y="-319806bu" />
-    </Comp>
-    <Comp Id="498" RefDes="L1" X="13779570bu" Y="3149616bu" Rot="270" Bot="True">
-      <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
-      <Prop Val="199" Nm="%%SCHUID" />
-      <Pad Id="499" X="-2000000bu" Y="0bu" Name="1" Width="550000bu" Height="550000bu" Drill="334646bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-      <Pad Id="500" X="2000000bu" Y="0bu" Name="2" Width="550000bu" Height="550000bu" Drill="334646bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-      <Poly Id="501" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
-        <Crn X="-1100000bu" Y="500000bu" />
-        <Crn X="-1100000bu" Y="-500000bu" />
-        <Crn X="1100000bu" Y="-500000bu" />
-        <Crn X="1100000bu" Y="500000bu" />
-        <Crn X="-1100000bu" Y="500000bu" />
-        <Crn X="-1100000bu" Y="500000bu" />
-      </Poly>
-      <Poly Id="502" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
-        <Crn X="-1500000bu" Y="0bu" />
-        <Crn X="-1100000bu" Y="0bu" />
-      </Poly>
-      <Poly Id="503" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
-        <Crn X="1500000bu" Y="0bu" />
-        <Crn X="1100000bu" Y="0bu" />
-      </Poly>
-      <Text Id="504" String="$%%REFDES" Rot="90" TextHeight="750000bu" LineWidth="80000bu" Mirrored="True" Layer="SsBot" X="356154bu" Y="-531106bu" />
-    </Comp>
     <Comp Id="505" RefDes="J1" X="22834716bu" Y="3937020bu" Rot="90" Bot="False">
       <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
       <Prop Val="201" Nm="%%SCHUID" />
@@ -2281,38 +2178,8 @@
       </Poly>
       <Text Id="528" String="$%%REFDES" Rot="90" TextHeight="750000bu" LineWidth="80000bu" Mirrored="True" Layer="SsBot" X="656106bu" Y="-608668bu" />
     </Comp>
-    <Comp Id="529" RefDes="R1" X="11811060bu" Y="3149616bu" Rot="90" Bot="True">
-      <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
-      <Prop Val="205" Nm="%%SCHUID" />
-      <Pad Id="530" X="-2500000bu" Y="0bu" Name="1" Width="520000bu" Height="520000bu" Drill="310000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-      <Pad Id="531" X="2500000bu" Y="0bu" Name="2" Width="520000bu" Height="520000bu" Drill="310000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
-      <Poly Id="532" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
-        <Crn X="-2000000bu" Y="-600000bu" />
-        <Crn X="2000000bu" Y="-600000bu" />
-        <Crn X="2000000bu" Y="600000bu" />
-        <Crn X="-2000000bu" Y="600000bu" />
-        <Crn X="-2000000bu" Y="-600000bu" />
-        <Crn X="-2000000bu" Y="-600000bu" />
-      </Poly>
-      <Poly Id="533" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
-        <Crn X="-2000000bu" Y="0bu" />
-        <Crn X="-2200000bu" Y="0bu" />
-      </Poly>
-      <Poly Id="534" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
-        <Crn X="2200000bu" Y="0bu" />
-        <Crn X="2000000bu" Y="0bu" />
-      </Poly>
-      <Text Id="535" String="$%%REFDES" Rot="0" TextHeight="750000bu" LineWidth="80000bu" Mirrored="True" Layer="SsBot" X="-468750bu" Y="-431106bu" />
-    </Comp>
     <Poly Id="536" Name="" Type="Outline" Layer="Bot" LineWidth="100000bu">
       <Crn X="15354378bu" Y="1968510bu" />
-    </Poly>
-    <Poly Id="537" Name="" Type="Filled" Layer="Bot" LineWidth="100000bu">
-      <Crn X="14960676bu" Y="1968510bu" />
-      <Crn X="17322888bu" Y="1968510bu" />
-      <Crn X="17322888bu" Y="1968510bu" />
-      <Crn X="14960676bu" Y="1968510bu" />
-      <Crn X="14960676bu" Y="1968510bu" />
     </Poly>
     <Comp Id="538" RefDes="C1" X="18110292bu" Y="787404bu" Rot="0" Bot="False">
       <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
@@ -2344,7 +2211,7 @@
       </Poly>
       <Text Id="547" String="$%%REFDES" Rot="0" TextHeight="750000bu" LineWidth="80000bu" Mirrored="False" Layer="SsTop" X="-525000bu" Y="-637444bu" />
     </Comp>
-    <Text Id="564" String="Crafted by stop-cran 2016" Rot="0" TextHeight="787402bu" LineWidth="78740bu" Mirrored="True" Layer="Bot" X="11023656bu" Y="7480316bu" />
+    <Text Id="564" String="Crafted by stop-cran 2016" Rot="0" TextHeight="787402bu" LineWidth="3937bu" Mirrored="True" Layer="Bot" X="11023622bu" Y="7480316bu" />
     <Comp Id="705" RefDes="J2" X="2362212bu" Y="3937020bu" Rot="270" Bot="False">
       <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
       <Prop Val="689" Nm="%%SCHUID" />
@@ -2415,93 +2282,206 @@
       </Poly>
       <Text Id="1056" String="$%%REFDES" Rot="0" TextHeight="750000bu" LineWidth="80000bu" Mirrored="True" Layer="SsBot" X="-488150bu" Y="1150000bu" />
     </Comp>
-    <Net Id="1057" Name="N_1_466" Width="196850bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
-      <Track Id="566" Start="530" End="539">
-        <Crn X="11811060bu" Y="649616bu" Width="196850bu" Layer="Bot" />
-        <Crn X="12204762bu" Y="393702bu" Width="196850bu" Layer="Bot" />
-        <Crn X="16535484bu" Y="393702bu" Width="196850bu" Layer="Bot" />
-        <Crn X="16929186bu" Y="787404bu" Width="196850bu" Layer="Bot" />
-        <Crn X="17126040bu" Y="787404bu" Width="0bu" Layer="Rats" />
-      </Track>
+    <Comp Id="1324" RefDes="R2" X="16141782bu" Y="5905530bu" Rot="90" Bot="False">
+      <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
+      <Prop Val="1292" Nm="%%SCHUID" />
+      <Pad Id="1325" X="-2000000bu" Y="0bu" Name="1" Width="551181bu" Height="551181bu" Drill="275591bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+      <Pad Id="1326" X="2000000bu" Y="0bu" Name="2" Width="551181bu" Height="551181bu" Drill="275591bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+      <Poly Id="1327" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+        <Crn X="-1500000bu" Y="500000bu" />
+        <Crn X="-1500000bu" Y="-500000bu" />
+        <Crn X="1500000bu" Y="-500000bu" />
+        <Crn X="1500000bu" Y="500000bu" />
+        <Crn X="-1500000bu" Y="500000bu" />
+        <Crn X="-1500000bu" Y="500000bu" />
+      </Poly>
+      <Poly Id="1328" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+        <Crn X="-1650000bu" Y="0bu" />
+        <Crn X="-1500000bu" Y="0bu" />
+      </Poly>
+      <Poly Id="1329" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+        <Crn X="1650000bu" Y="0bu" />
+        <Crn X="1500000bu" Y="0bu" />
+      </Poly>
+      <Text Id="1330" String="$%%REFDES" Rot="0" TextHeight="750000bu" LineWidth="80000bu" Mirrored="False" Layer="SsTop" X="-525000bu" Y="650000bu" />
+    </Comp>
+    <Comp Id="1331" RefDes="R3" X="14960676bu" Y="5511828bu" Rot="0" Bot="True">
+      <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
+      <Prop Val="1309" Nm="%%SCHUID" />
+      <Pad Id="1332" X="-2000000bu" Y="0bu" Name="1" Width="551181bu" Height="551181bu" Drill="275591bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+      <Pad Id="1333" X="2000000bu" Y="0bu" Name="2" Width="551181bu" Height="551181bu" Drill="275591bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+      <Poly Id="1334" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
+        <Crn X="-1500000bu" Y="500000bu" />
+        <Crn X="-1500000bu" Y="-500000bu" />
+        <Crn X="1500000bu" Y="-500000bu" />
+        <Crn X="1500000bu" Y="500000bu" />
+        <Crn X="-1500000bu" Y="500000bu" />
+        <Crn X="-1500000bu" Y="500000bu" />
+      </Poly>
+      <Poly Id="1335" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
+        <Crn X="-1650000bu" Y="0bu" />
+        <Crn X="-1500000bu" Y="0bu" />
+      </Poly>
+      <Poly Id="1336" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
+        <Crn X="1650000bu" Y="0bu" />
+        <Crn X="1500000bu" Y="0bu" />
+      </Poly>
+      <Text Id="1337" String="$%%REFDES" Rot="0" TextHeight="750000bu" LineWidth="80000bu" Mirrored="True" Layer="SsBot" X="-525000bu" Y="650000bu" />
+    </Comp>
+    <Comp Id="1528" RefDes="Q1" X="14173272bu" Y="7480338bu" Rot="0" Bot="True">
+      <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
+      <Prop Val="1473" Nm="%%SCHUID" />
+      <Pad Id="1529" X="-1000000bu" Y="0bu" Name="1" Width="708661bu" Height="708661bu" Drill="472441bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+      <Pad Id="1530" X="0bu" Y="0bu" Name="2" Width="708661bu" Height="708661bu" Drill="472441bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+      <Pad Id="1531" X="1000000bu" Y="0bu" Name="3" Width="708661bu" Height="708661bu" Drill="472441bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+      <Poly Id="1532" Name="" Type="Outline" Layer="SsBot" LineWidth="60000bu">
+        <Crn X="-2075000bu" Y="-725000bu" />
+        <Crn X="2075000bu" Y="-725000bu" />
+      </Poly>
+      <Poly Id="1533" Name="" Type="Outline" Layer="SsBot" LineWidth="60000bu">
+        <Crn X="2075000bu" Y="-725000bu" />
+        <Crn X="2075000bu" Y="1125000bu" />
+      </Poly>
+      <Poly Id="1534" Name="" Type="Outline" Layer="SsBot" LineWidth="60000bu">
+        <Crn X="2075000bu" Y="1125000bu" />
+        <Crn X="-2075000bu" Y="1125000bu" />
+      </Poly>
+      <Poly Id="1535" Name="" Type="Outline" Layer="SsBot" LineWidth="60000bu">
+        <Crn X="-2075000bu" Y="1125000bu" />
+        <Crn X="-2075000bu" Y="-725000bu" />
+      </Poly>
+      <Poly Id="1536" Name="" Type="Outline" Layer="SsBot" LineWidth="80000bu">
+        <Crn X="-2050000bu" Y="720000bu" />
+        <Crn X="2050000bu" Y="720000bu" />
+      </Poly>
+      <Text Id="1537" String="$%%REFDES" Rot="0" TextHeight="750000bu" LineWidth="80000bu" Mirrored="True" Layer="SsBot" X="-487500bu" Y="1255000bu" />
+    </Comp>
+    <Comp Id="1874" RefDes="L1" X="13779570bu" Y="3149616bu" Rot="270" Bot="True">
+      <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
+      <Prop Val="1839" Nm="%%SCHUID" />
+      <Pad Id="1875" X="-2000000bu" Y="0bu" Name="1" Width="551181bu" Height="551181bu" Drill="275591bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+      <Pad Id="1876" X="2000000bu" Y="0bu" Name="2" Width="551181bu" Height="551181bu" Drill="275591bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+      <Poly Id="1877" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
+        <Crn X="-1100000bu" Y="500000bu" />
+        <Crn X="-1100000bu" Y="-500000bu" />
+        <Crn X="1100000bu" Y="-500000bu" />
+        <Crn X="1100000bu" Y="500000bu" />
+        <Crn X="-1100000bu" Y="500000bu" />
+        <Crn X="-1100000bu" Y="500000bu" />
+      </Poly>
+      <Poly Id="1878" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
+        <Crn X="-1500000bu" Y="0bu" />
+        <Crn X="-1100000bu" Y="0bu" />
+      </Poly>
+      <Poly Id="1879" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
+        <Crn X="1500000bu" Y="0bu" />
+        <Crn X="1100000bu" Y="0bu" />
+      </Poly>
+      <Text Id="1880" String="$%%REFDES" Rot="0" TextHeight="750000bu" LineWidth="80000bu" Mirrored="True" Layer="SsBot" X="-431250bu" Y="650000bu" />
+    </Comp>
+    <Comp Id="1998" RefDes="R1" X="11811060bu" Y="3149616bu" Rot="90" Bot="True">
+      <Prop Val="True" Nm="%%COMPPLACEDBYUSER" />
+      <Prop Val="1983" Nm="%%SCHUID" />
+      <Pad Id="1999" X="-2500000bu" Y="0bu" Name="1" Width="708661bu" Height="708661bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+      <Pad Id="2000" X="2500000bu" Y="0bu" Name="2" Width="708661bu" Height="708661bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+      <Poly Id="2001" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
+        <Crn X="-2000000bu" Y="-600000bu" />
+        <Crn X="2000000bu" Y="-600000bu" />
+        <Crn X="2000000bu" Y="600000bu" />
+        <Crn X="-2000000bu" Y="600000bu" />
+        <Crn X="-2000000bu" Y="-600000bu" />
+        <Crn X="-2000000bu" Y="-600000bu" />
+      </Poly>
+      <Poly Id="2002" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
+        <Crn X="-2000000bu" Y="0bu" />
+        <Crn X="-2200000bu" Y="0bu" />
+      </Poly>
+      <Poly Id="2003" Name="" Type="Outline" Layer="SsBot" LineWidth="100000bu">
+        <Crn X="2200000bu" Y="0bu" />
+        <Crn X="2000000bu" Y="0bu" />
+      </Poly>
+      <Text Id="2004" String="$%%REFDES" Rot="0" TextHeight="750000bu" LineWidth="80000bu" Mirrored="True" Layer="SsBot" X="-468750bu" Y="750000bu" />
+    </Comp>
+    <Net Id="2052" Name="N_1_466" Width="196850bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
       <Track Id="567" Start="539" End="517">
         <Crn X="17126040bu" Y="787404bu" Width="196850bu" Layer="Bot" />
         <Crn X="17322888bu" Y="787404bu" Width="196850bu" Layer="Bot" />
         <Crn X="17716590bu" Y="1181106bu" Width="196850bu" Layer="Bot" />
         <Crn X="17716590bu" Y="2992134bu" Width="196850bu" Layer="Bot" />
-        <Crn X="16811072bu" Y="2992134bu" Width="0bu" Layer="Rats" />
+        <Crn X="16811072bu" Y="2992134bu" Width="196850bu" Layer="Rats" />
       </Track>
-      <Track Id="865" Start="834" End="530">
-        <Crn X="5866168bu" Y="6732298bu" Width="236220bu" Layer="Top" />
-        <Crn X="5866168bu" Y="4330722bu" Width="236220bu" Layer="Top" />
-        <Crn X="9547276bu" Y="649616bu" Width="236220bu" Layer="Top" />
-        <Crn X="11811060bu" Y="649616bu" Width="0bu" Layer="Rats" />
+      <Track Id="2039" Start="1999" End="539">
+        <Crn X="11811060bu" Y="649616bu" Width="196850bu" Layer="Top" />
+        <Crn X="11811060bu" Y="393702bu" Width="196850bu" Layer="Top" />
+        <Crn X="16535484bu" Y="393702bu" Width="196850bu" Layer="Top" />
+        <Crn X="16929186bu" Y="787404bu" Width="196850bu" Layer="Top" />
+        <Crn X="17126040bu" Y="787404bu" Width="196850bu" Layer="Rats" />
       </Track>
-    </Net>
-    <Net Id="1058" Name="N_1_1514" Width="196850bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
-      <Track Id="614" Start="516" End="476">
-        <Crn X="16811072bu" Y="3464574bu" Width="196850bu" Layer="Bot" />
-        <Crn X="16960676bu" Y="3464574bu" Width="196850bu" Layer="Bot" />
-        <Crn X="16960676bu" Y="5905530bu" Width="0bu" Layer="Rats" />
-      </Track>
-      <Track Id="615" Start="531" End="476">
-        <Crn X="11811060bu" Y="5649616bu" Width="196850bu" Layer="Bot" />
-        <Crn X="12992166bu" Y="4330722bu" Width="196850bu" Layer="Bot" />
-        <Crn X="14566974bu" Y="4330722bu" Width="196850bu" Layer="Bot" />
-        <Crn X="14960676bu" Y="4724424bu" Width="196850bu" Layer="Bot" />
-        <Crn X="16960676bu" Y="4724424bu" Width="196850bu" Layer="Rats" />
-        <Crn X="16960676bu" Y="5905530bu" Width="0bu" Layer="Rats" />
+      <Track Id="2040" Start="834" End="1999">
+        <Crn X="5866168bu" Y="6732298bu" Width="196850bu" Layer="Top" />
+        <Crn X="7874040bu" Y="4724424bu" Width="196850bu" Layer="Top" />
+        <Crn X="7874040bu" Y="1968510bu" Width="196850bu" Layer="Top" />
+        <Crn X="9192936bu" Y="649616bu" Width="196850bu" Layer="Top" />
+        <Crn X="11811060bu" Y="649616bu" Width="196850bu" Layer="Rats" />
       </Track>
     </Net>
-    <Net Id="1059" Name="N_1_1614" Width="393701bu" Space="30000bu" WidthExplicitlySet="True" SpacingExplicitlySet="False">
-      <Track Id="573" Start="470" End="483">
+    <Net Id="2053" Name="N_1_1514" Width="314961bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
+      <Track Id="1368" Start="1332" End="516">
+        <Crn X="16960676bu" Y="5511828bu" Width="314961bu" Layer="Bot" />
+        <Crn X="16929186bu" Y="3543318bu" Width="314961bu" Layer="Bot" />
+        <Crn X="16811072bu" Y="3464574bu" Width="314961bu" Layer="Rats" />
+      </Track>
+      <Track Id="2041" Start="2000" End="1332">
+        <Crn X="11811060bu" Y="5649616bu" Width="314961bu" Layer="Top" />
+        <Crn X="12598464bu" Y="6299232bu" Width="314961bu" Layer="Top" />
+        <Crn X="16141782bu" Y="6299232bu" Width="314961bu" Layer="Top" />
+        <Crn X="16929188bu" Y="5511828bu" Width="314961bu" Layer="Top" />
+        <Crn X="16960676bu" Y="5511828bu" Width="314961bu" Layer="Rats" />
+      </Track>
+    </Net>
+    <Net Id="2054" Name="N_1_1614" Width="393701bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
+      <Track Id="1567" Start="1326" End="1529">
         <Crn X="16141782bu" Y="7905530bu" Width="393701bu" Layer="Bot" />
-        <Crn X="15748080bu" Y="7480338bu" Width="393701bu" Layer="Bot" />
-        <Crn X="15748080bu" Y="7086636bu" Width="393701bu" Layer="Bot" />
-        <Crn X="15566974bu" Y="7086636bu" Width="0bu" Layer="Rats" />
+        <Crn X="15748080bu" Y="7905530bu" Width="393701bu" Layer="Bot" />
+        <Crn X="15322888bu" Y="7480338bu" Width="393701bu" Layer="Bot" />
+        <Crn X="15173272bu" Y="7480338bu" Width="393701bu" Layer="Rats" />
       </Track>
     </Net>
-    <Net Id="1060" Name="N_1_685" Width="196850bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
-      <Track Id="575" Start="484" End="499">
-        <Crn X="14566974bu" Y="7086636bu" Width="196850bu" Layer="Bot" />
-        <Crn X="14566974bu" Y="5905530bu" Width="196850bu" Layer="Bot" />
-        <Crn X="13779570bu" Y="5149616bu" Width="314961bu" Layer="Rats" />
+    <Net Id="2055" Name="N_1_685" Width="393701bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
+      <Track Id="1910" Start="1530" End="1875">
+        <Crn X="14173272bu" Y="7480338bu" Width="393701bu" Layer="Bot" />
+        <Crn X="14173272bu" Y="5511828bu" Width="393701bu" Layer="Bot" />
+        <Crn X="13779570bu" Y="5118126bu" Width="393701bu" Layer="Bot" />
+        <Crn X="13779570bu" Y="5149616bu" Width="393701bu" Layer="Rats" />
       </Track>
     </Net>
-    <Net Id="1061" Name="N_1_979" Width="196850bu" Space="30000bu" WidthExplicitlySet="True" SpacingExplicitlySet="False">
-      <Track Id="579" Start="544" End="523">
-        <Crn X="13189020bu" Y="1181106bu" Width="196850bu" Layer="Top" />
-        <Crn X="13779570bu" Y="1181106bu" Width="196850bu" Layer="Rats" />
-        <Crn X="15354378bu" Y="2362212bu" Width="196850bu" Layer="Top" />
-        <Crn X="15354378bu" Y="3937020bu" Width="196850bu" Layer="Bot" />
+    <Net Id="2056" Name="N_1_979" Width="196850bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
+      <Track Id="579" Start="523" End="544">
+        <Crn X="14685090bu" Y="3464574bu" Width="196850bu" Layer="Bot" />
         <Crn X="14960676bu" Y="3464574bu" Width="196850bu" Layer="Bot" />
-        <Crn X="14685090bu" Y="3464574bu" Width="0bu" Layer="Rats" />
-      </Track>
-      <Track Id="580" Start="500" End="523">
-        <Crn X="13779570bu" Y="1149616bu" Width="196850bu" Layer="Rats" />
-        <Crn X="14685090bu" Y="3464574bu" Width="196850bu" Layer="Rats" />
+        <Crn X="15354378bu" Y="3937020bu" Width="196850bu" Layer="Top" />
+        <Crn X="15354378bu" Y="2362212bu" Width="196850bu" Layer="Top" />
+        <Crn X="14960676bu" Y="2362212bu" Width="196850bu" Layer="Top" />
+        <Crn X="13779570bu" Y="1181106bu" Width="196850bu" Layer="Top" />
+        <Crn X="13189020bu" Y="1181106bu" Width="0bu" Layer="Rats" />
       </Track>
       <Track Id="1101" Start="506" End="1052">
         <Crn X="20866216bu" Y="2559066bu" Width="196850bu" Layer="Bot" />
         <Crn X="19291398bu" Y="2559066bu" Width="196850bu" Layer="Bot" />
         <Crn X="18897696bu" Y="2141706bu" Width="0bu" Layer="Rats" />
       </Track>
-      <Track Id="1102" Start="1052" End="500">
+      <Track Id="1912" Start="1052" End="523">
         <Crn X="18897696bu" Y="2141706bu" Width="196850bu" Layer="Top" />
         <Crn X="18503994bu" Y="2362212bu" Width="196850bu" Layer="Top" />
-        <Crn X="15354378bu" Y="2362212bu" Width="196850bu" Layer="Top" />
-        <Crn X="14173272bu" Y="1149616bu" Width="196850bu" Layer="Top" />
+        <Crn X="15354378bu" Y="2362212bu" Width="196850bu" Layer="Rats" />
+        <Crn X="14685090bu" Y="3464574bu" Width="0bu" Layer="Rats" />
+      </Track>
+      <Track Id="2062" Start="1876" End="544">
         <Crn X="13779570bu" Y="1149616bu" Width="0bu" Layer="Rats" />
+        <Crn X="13189020bu" Y="1181106bu" Width="0bu" Layer="Rats" />
       </Track>
     </Net>
-    <Net Id="1062" Name="N_1_212" Width="196850bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
-      <Track Id="616" Start="485" End="477">
-        <Crn X="13566974bu" Y="7086636bu" Width="196850bu" Layer="Bot" />
-        <Crn X="13566974bu" Y="6692934bu" Width="196850bu" Layer="Bot" />
-        <Crn X="12960676bu" Y="6086636bu" Width="196850bu" Layer="Bot" />
-        <Crn X="12960676bu" Y="5905530bu" Width="0bu" Layer="Rats" />
-      </Track>
-    </Net>
-    <Net Id="1063" Name="N_1_215" Width="196850bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
+    <Net Id="2057" Name="N_1_215" Width="196850bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
       <Track Id="586" Start="545" End="520">
         <Crn X="15157524bu" Y="1181106bu" Width="196850bu" Layer="Bot" />
         <Crn X="15157524bu" Y="2047254bu" Width="196850bu" Layer="Rats" />
@@ -2538,7 +2518,7 @@
         <Crn X="19094544bu" Y="787404bu" Width="0bu" Layer="Rats" />
       </Track>
     </Net>
-    <Net Id="1064" Name="N_1_2721" Width="393701bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
+    <Net Id="2058" Name="N_1_2721" Width="393701bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
       <Track Id="866" Start="708" End="835">
         <Crn X="2165362bu" Y="4921272bu" Width="393701bu" Layer="Bot" />
         <Crn X="8661444bu" Y="4921272bu" Width="393701bu" Layer="Bot" />
@@ -2546,19 +2526,26 @@
         <Crn X="10669318bu" Y="6732298bu" Width="0bu" Layer="Rats" />
       </Track>
     </Net>
-    <Net Id="1065" Name="N_1_2724" Width="393701bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
-      <Track Id="867" Start="709" End="836">
-        <Crn X="2165362bu" Y="2952768bu" Width="393701bu" Layer="Bot" />
+    <Net Id="2059" Name="N_1_2724" Width="393701bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
+      <Track Id="867" Start="836" End="709">
+        <Crn X="5866168bu" Y="1929148bu" Width="393701bu" Layer="Bot" />
         <Crn X="3188982bu" Y="1929148bu" Width="393701bu" Layer="Bot" />
-        <Crn X="5866168bu" Y="1929148bu" Width="0bu" Layer="Rats" />
+        <Crn X="2165362bu" Y="2952768bu" Width="0bu" Layer="Rats" />
       </Track>
     </Net>
-    <Net Id="1066" Name="N_1_3029" Width="196850bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
-      <Track Id="595" Start="518" End="469">
+    <Net Id="2060" Name="N_1_3029" Width="196850bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
+      <Track Id="1374" Start="518" End="1325">
         <Crn X="16811072bu" Y="2519694bu" Width="196850bu" Layer="Bot" />
-        <Crn X="16535484bu" Y="2519694bu" Width="196850bu" Layer="Bot" />
-        <Crn X="16141782bu" Y="2913398bu" Width="196850bu" Layer="Bot" />
+        <Crn X="16141782bu" Y="2519694bu" Width="196850bu" Layer="Bot" />
         <Crn X="16141782bu" Y="3905530bu" Width="0bu" Layer="Rats" />
+      </Track>
+    </Net>
+    <Net Id="2061" Name="N_1_212" Width="393701bu" Space="30000bu" WidthExplicitlySet="False" SpacingExplicitlySet="False">
+      <Track Id="1569" Start="1531" End="1333">
+        <Crn X="13173272bu" Y="7480338bu" Width="393701bu" Layer="Bot" />
+        <Crn X="13173272bu" Y="5905530bu" Width="393701bu" Layer="Bot" />
+        <Crn X="12960676bu" Y="5692934bu" Width="393701bu" Layer="Bot" />
+        <Crn X="12960676bu" Y="5511828bu" Width="393701bu" Layer="Rats" />
       </Track>
     </Net>
   </Board>
